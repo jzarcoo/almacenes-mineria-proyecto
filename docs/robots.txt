@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://jzarcoo.github.io/almacenes-mineria-proyecto/sitemap.xml

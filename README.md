@@ -4,8 +4,7 @@ Facultad de Ciencias, UNAM. Proyecto Integrador construido de forma incremental 
 **CRISP-DM**, entregado como sitio web con [Quarto](https://quarto.org/) y desplegado con GitHub
 Pages.
 
-**Sitio publicado:** [PENDIENTE — pegar aquí la URL de GitHub Pages, p. ej.
-`https://<usuario>.github.io/<repositorio>/`]
+**Sitio publicado:** <https://jzarcoo.github.io/almacenes-mineria-proyecto/>
 
 ## Integrantes
 

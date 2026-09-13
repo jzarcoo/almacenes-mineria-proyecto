@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Proyecto Integrador — Almacenes y Minería de Datos"
-  site-url: "" # TODO: pegar aquí la URL de GitHub Pages una vez desplegado
+  site-url: "https://jzarcoo.github.io/almacenes-mineria-proyecto/"
   description: "Facultad de Ciencias, UNAM · Proyecto Integrador construido de forma incremental bajo la metodología CRISP-DM."
   page-navigation: true
   back-to-top-navigation: true
@@ -32,7 +32,7 @@ website:
             text: "Uso de herramientas de IA"
     right:
       - icon: github
-        href: "" # TODO: pegar aquí la URL del repositorio de GitHub
+        href: "https://github.com/jzarcoo/almacenes-mineria-proyecto"
         text: "Repositorio"
 
   page-footer:
