@@ -1,0 +1,36 @@
+---
+title: "Documentación de uso de herramientas de IA"
+---
+
+::: {.todo}
+El uso de LLMs (ChatGPT, Claude, Copilot, Gemini, etc.) **no está prohibido**, pero debe
+documentarse de forma explícita y honesta. Para cada uso, registrar herramienta, tarea, prompts
+empleados y qué se hizo con la salida obtenida (revisión, corrección, validación). No se acepta
+copiar y pegar una respuesta de un LLM sin revisión crítica.
+
+Si el equipo **no** utilizó ninguna herramienta de IA en esta entrega, borrar la tabla de abajo y
+dejar únicamente la frase: *"No se utilizaron herramientas de IA en esta entrega."*
+:::
+
+## Registro de usos
+
+::: {.cell}
+<table class="riesgos">
+<thead>
+<tr>
+<th>Herramienta</th>
+<th>Tarea</th>
+<th>Prompt(s) empleado(s)</th>
+<th>Qué se hizo con la salida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Claude Code (Claude Sonnet 5, Anthropic)</td>
+<td>Generar el andamiaje inicial del repositorio y del sitio Quarto: estructura de carpetas, páginas <code>.qmd</code> por entregable, configuración de navegación y estilos visuales.</td>
+<td>Resumen fiel: se pidió construir el repositorio con la estructura de carpetas y archivos exigida por el instructivo de la entrega E0 (<code>entregas/E0_comprension_negocio/</code> con sus seis páginas, <code>_quarto.yml</code> con <code>output-dir: docs</code>, y <code>README.md</code>), usando solo plantillas con marcadores de posición, sin inventar contenido de negocio; después se pidió documentar aquí el prompt usado de forma resumida.</td>
+<td>Se revisó cada archivo generado, se verificó que no incluyera información de negocio inventada (solo placeholders entre corchetes), se ajustó el diseño visual y se corrió <code>quarto render</code> para confirmar que el sitio compila sin errores. El equipo debe completar el contenido real (bitácora, Canvas, preguntas, criterio de éxito, riesgos) antes de la entrega.</td>
+</tr>
+</tbody>
+</table>
+:::

@@ -1,0 +1,48 @@
+---
+title: "Proyecto Integrador — Almacenes y Minería de Datos"
+subtitle: "Facultad de Ciencias, UNAM"
+---
+
+::: {.todo}
+**Nota de plantilla:** completar los datos del equipo y del proyecto antes de la entrega. Eliminar este recuadro una vez llenado el contenido real.
+:::
+
+## Datos del equipo
+
+- **Integrantes:** [Nombre completo 1], [Nombre completo 2], [Nombre completo 3], [Nombre completo 4]
+- **Cuentas / correos:** [correo1@ciencias.unam.mx], [correo2@ciencias.unam.mx]
+- **Profesora:** Jessica Santizo Galicia
+- **Ayudante de Teoría:** Diego Antonio Villalba González
+- **Ayudante de Laboratorio:** Emma Alicia Jiménez Sánchez
+- **Semestre:** [2026-1]
+
+## Descripción del proyecto
+
+[Resumen breve (3–5 líneas) del problema de negocio elegido, el área temática (seguridad, salud,
+educación, medio ambiente, etc.) y el stakeholder con el que se trabaja.]
+
+## Metodología
+
+El proyecto se desarrolla de forma incremental siguiendo las fases de **CRISP-DM**
+(*Cross-Industry Standard Process for Data Mining*). Este sitio se actualiza en cada entrega parcial;
+no se crea un repositorio nuevo por fase.
+
+| # | Fase CRISP-DM | Estatus |
+|---|---|---|
+| 1 | Comprensión del negocio | Cubierta en **E0** |
+| 2 | Comprensión de los datos | Entrega posterior |
+| 3 | Preparación de los datos | Entrega posterior |
+| 4 | Modelado | Entrega posterior |
+| 5 | Evaluación | Entrega posterior |
+| 6 | Despliegue | Integrada en el reporte y la presentación final |
+
+## Entregas
+
+### E0 — Comprensión del negocio
+
+- [Bitácora de la reunión con el stakeholder](entregas/E0_comprension_negocio/bitacora.qmd)
+- [Business Understanding Canvas](entregas/E0_comprension_negocio/canvas.qmd)
+- [Preguntas de investigación priorizadas](entregas/E0_comprension_negocio/preguntas.qmd)
+- [Criterio de éxito en términos de negocio](entregas/E0_comprension_negocio/criterio_exito.qmd)
+- [Riesgos y supuestos](entregas/E0_comprension_negocio/riesgos_supuestos.qmd)
+- [Documentación de uso de herramientas de IA](entregas/E0_comprension_negocio/uso_ia.qmd)

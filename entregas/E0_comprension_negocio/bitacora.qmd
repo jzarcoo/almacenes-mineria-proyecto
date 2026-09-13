@@ -1,0 +1,72 @@
+---
+title: "Bitácora de la reunión con el stakeholder"
+---
+
+::: {.todo}
+**Extensión sugerida:** 1–2 páginas. Debe incluir fecha y modalidad de la reunión, nombre/rol del
+stakeholder (o la fuente que sustenta cada respuesta si fue simulado), las preguntas realizadas, las
+respuestas clave (cita o paráfrasis fiel) y una reflexión del equipo.
+:::
+
+## Datos de la reunión
+
+- **Fecha:** [dd/mm/aaaa]
+- **Modalidad:** [Presencial / Videollamada / Ejercicio de rol documentado (stakeholder simulado)]
+- **Duración aproximada:** [xx minutos]
+- **Integrantes del equipo presentes:** [Nombre 1, Nombre 2, ...]
+
+## Stakeholder
+
+- **Nombre y rol:** [Nombre completo, cargo, institución u organización]
+- **Tipo de stakeholder:** [Real / Simulado]
+- **Justificación (solo si es simulado):** [Explicar por qué no fue posible el acceso real al
+  stakeholder]
+- **Fuentes que sustentan las respuestas (solo si es simulado):** ver [fuentes](fuentes/) y detalle
+  citado junto a cada respuesta abajo.
+
+## Guion de preguntas realizadas
+
+1. [Pregunta 1]
+2. [Pregunta 2]
+3. [Pregunta 3]
+4. [Pregunta 4]
+5. [Pregunta 5]
+
+## Respuestas clave
+
+### [Pregunta 1]
+
+> [Cita textual o paráfrasis fiel de la respuesta del stakeholder]
+
+*Fuente que sustenta la respuesta (solo si es simulado):* [cita completa / enlace / informe]
+
+### [Pregunta 2]
+
+> [Cita textual o paráfrasis fiel de la respuesta del stakeholder]
+
+*Fuente que sustenta la respuesta (solo si es simulado):* [cita completa / enlace / informe]
+
+### [Pregunta 3]
+
+> [Cita textual o paráfrasis fiel de la respuesta del stakeholder]
+
+*Fuente que sustenta la respuesta (solo si es simulado):* [cita completa / enlace / informe]
+
+## Decisiones que hoy se toman sin apoyo de datos
+
+[Descripción de las decisiones operativas o de negocio que el stakeholder toma actualmente de forma
+manual o intuitiva, sin respaldo de datos.]
+
+## Restricciones operativas identificadas
+
+[Restricciones de tiempo, presupuesto, disponibilidad de datos, regulación, capacidad técnica, etc.,
+mencionadas por el stakeholder.]
+
+## Qué significaría "éxito" desde la perspectiva del stakeholder
+
+[Síntesis, en las propias palabras del stakeholder, de qué consideraría un resultado exitoso.]
+
+## Reflexión del equipo
+
+[1–2 párrafos: qué cambió en el entendimiento del problema por parte del equipo después de la
+entrevista, qué supuestos iniciales se confirmaron o se descartaron.]

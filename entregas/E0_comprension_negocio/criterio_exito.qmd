@@ -1,0 +1,27 @@
+---
+title: "Criterio de éxito en términos de negocio"
+---
+
+::: {.todo}
+Debe ser un enunciado **verificable y medible**, expresado en el lenguaje del stakeholder — no en
+métricas de modelo. Ejemplo: *"reducir en 20 % el tiempo de atención de reportes"* en lugar de
+*"lograr un F1-score de 0.85"*. Debe indicarse también cómo ese criterio se relacionará, más
+adelante, con una métrica técnica.
+:::
+
+## Enunciado del criterio de éxito
+
+> [Enunciado verificable y medible, en el lenguaje de negocio del stakeholder.]
+
+## Cómo se verificará
+
+- **Fuente de datos / evidencia:** [de dónde saldrá la evidencia para verificar el criterio]
+- **Línea base actual:** [valor o situación actual antes de la intervención, si se conoce]
+- **Meta / umbral objetivo:** [valor o condición que definiría el éxito]
+- **Horizonte de tiempo:** [plazo en el que se espera observar el resultado]
+
+## Vínculo con una métrica técnica futura
+
+[Explicar cómo el criterio de negocio se traducirá, en fases posteriores del proyecto, en una métrica
+técnica de evaluación del modelo (p. ej. precisión, recall, error absoluto medio, etc.), y por qué esa
+métrica es un buen proxy del criterio de negocio.]

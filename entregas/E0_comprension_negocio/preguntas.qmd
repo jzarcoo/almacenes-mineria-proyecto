@@ -1,0 +1,30 @@
+---
+title: "Preguntas de investigación priorizadas"
+---
+
+::: {.todo}
+3–4 preguntas concretas y accionables (no genéricas), ordenadas por prioridad. Cada una debe conectar
+de forma explícita con el objetivo de minería de datos (p. ej. apuntar hacia una tarea de
+clasificación, regresión o segmentación).
+:::
+
+## 1. [Pregunta de investigación 1] — Prioridad alta
+
+- **Conexión con el objetivo de minería de datos:** [tipo de tarea, p. ej. clasificación /
+  regresión / segmentación / detección de anomalías, y por qué]
+- **Justificación de la prioridad:** [por qué esta pregunta es la más urgente o de mayor impacto]
+
+## 2. [Pregunta de investigación 2] — Prioridad alta/media
+
+- **Conexión con el objetivo de minería de datos:** [tipo de tarea y por qué]
+- **Justificación de la prioridad:** [razón]
+
+## 3. [Pregunta de investigación 3] — Prioridad media
+
+- **Conexión con el objetivo de minería de datos:** [tipo de tarea y por qué]
+- **Justificación de la prioridad:** [razón]
+
+## 4. [Pregunta de investigación 4, opcional] — Prioridad media/baja
+
+- **Conexión con el objetivo de minería de datos:** [tipo de tarea y por qué]
+- **Justificación de la prioridad:** [razón]

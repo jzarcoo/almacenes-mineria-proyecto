@@ -1,0 +1,73 @@
+---
+title: "Business Understanding Canvas"
+---
+
+::: {.todo}
+**Debe leerse de forma autónoma, en una sola pantalla/página**, sin necesidad del resto del sitio.
+Sintetiza: objetivo de negocio, objetivo de minería de datos, stakeholders y beneficiarios, situación
+actual / dolor del problema, restricciones y recursos disponibles, criterio de éxito y riesgos
+principales.
+:::
+
+::: {.canvas-grid}
+
+::: {.canvas-block .canvas-span-2}
+#### Objetivo de negocio
+<p>[Enunciado del objetivo en el lenguaje del dominio del stakeholder, no en el de minería de datos.]</p>
+:::
+
+::: {.canvas-block .canvas-span-2}
+#### Objetivo de minería de datos
+<p>[Traducción técnica del objetivo: predecir, segmentar, detectar anomalías, clasificar, etc.]</p>
+:::
+
+::: {.canvas-block}
+#### Stakeholders
+<ul>
+<li>[Stakeholder principal]</li>
+<li>[Otros actores relevantes]</li>
+</ul>
+:::
+
+::: {.canvas-block}
+#### Beneficiarios finales
+<ul>
+<li>[Quién se beneficia del resultado]</li>
+</ul>
+:::
+
+::: {.canvas-block .canvas-span-2}
+#### Situación actual / dolor del problema
+<p>[Descripción breve de cómo se vive hoy el problema, sin apoyo de datos.]</p>
+:::
+
+::: {.canvas-block}
+#### Restricciones
+<ul>
+<li>[Tiempo, presupuesto, datos, regulación, capacidad técnica]</li>
+</ul>
+:::
+
+::: {.canvas-block}
+#### Recursos disponibles
+<ul>
+<li>[Datos, herramientas, personas, infraestructura]</li>
+</ul>
+:::
+
+::: {.canvas-block .canvas-span-2}
+#### Criterio de éxito
+<p>[Enunciado verificable y medible en términos de negocio. Ver detalle en
+<a href="criterio_exito.qmd">criterio_exito.qmd</a>.]</p>
+:::
+
+::: {.canvas-block .canvas-span-2}
+#### Riesgos principales
+<ul>
+<li>[Riesgo 1, resumido]</li>
+<li>[Riesgo 2, resumido]</li>
+</ul>
+<p>Detalle completo en <a href="riesgos_supuestos.qmd">riesgos_supuestos.qmd</a>.</p>
+:::
+
+:::

@@ -1,0 +1,51 @@
+---
+title: "Supuestos y riesgos"
+---
+
+::: {.todo}
+Mínimo 2 riesgos **reales y específicos** al proyecto (no genéricos tipo "que falle el internet"):
+por ejemplo, disponibilidad o calidad incierta de los datos, sesgos en la fuente, ventana temporal
+insuficiente, o que el criterio de éxito del stakeholder no sea alcanzable con los datos disponibles.
+Cada riesgo debe incluir una mitigación propuesta.
+:::
+
+## Supuestos
+
+- [Supuesto 1, p. ej. sobre disponibilidad futura de datos]
+- [Supuesto 2]
+- [Supuesto 3]
+
+## Riesgos
+
+::: {.cell}
+<table class="riesgos">
+<thead>
+<tr>
+<th>#</th>
+<th>Riesgo</th>
+<th>Por qué es específico a este proyecto</th>
+<th>Mitigación propuesta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>[Descripción del riesgo]</td>
+<td>[Por qué aplica concretamente a este problema/datos/stakeholder]</td>
+<td>[Acción o plan para mitigarlo]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>[Descripción del riesgo]</td>
+<td>[Por qué aplica concretamente a este problema/datos/stakeholder]</td>
+<td>[Acción o plan para mitigarlo]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>[Riesgo adicional, opcional]</td>
+<td>[Justificación]</td>
+<td>[Mitigación]</td>
+</tr>
+</tbody>
+</table>
+:::

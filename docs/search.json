@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Proyecto Integrador — Almacenes y Minería de Datos",
+    "section": "",
+    "text": "Nota de plantilla: completar los datos del equipo y del proyecto antes de la entrega. Eliminar este recuadro una vez llenado el contenido real."
+  },
+  {
+    "objectID": "index.html#datos-del-equipo",
+    "href": "index.html#datos-del-equipo",
+    "title": "Proyecto Integrador — Almacenes y Minería de Datos",
+    "section": "Datos del equipo",
+    "text": "Datos del equipo\n\nIntegrantes: [Nombre completo 1], [Nombre completo 2], [Nombre completo 3], [Nombre completo 4]\nCuentas / correos: [correo1@ciencias.unam.mx], [correo2@ciencias.unam.mx]\nProfesora: Jessica Santizo Galicia\nAyudante de Teoría: Diego Antonio Villalba González\nAyudante de Laboratorio: Emma Alicia Jiménez Sánchez\nSemestre: [2026-1]"
+  },
+  {
+    "objectID": "index.html#descripción-del-proyecto",
+    "href": "index.html#descripción-del-proyecto",
+    "title": "Proyecto Integrador — Almacenes y Minería de Datos",
+    "section": "Descripción del proyecto",
+    "text": "Descripción del proyecto\n[Resumen breve (3–5 líneas) del problema de negocio elegido, el área temática (seguridad, salud, educación, medio ambiente, etc.) y el stakeholder con el que se trabaja.]"
+  },
+  {
+    "objectID": "index.html#metodología",
+    "href": "index.html#metodología",
+    "title": "Proyecto Integrador — Almacenes y Minería de Datos",
+    "section": "Metodología",
+    "text": "Metodología\nEl proyecto se desarrolla de forma incremental siguiendo las fases de CRISP-DM (Cross-Industry Standard Process for Data Mining). Este sitio se actualiza en cada entrega parcial; no se crea un repositorio nuevo por fase.\n\n\n\n#\nFase CRISP-DM\nEstatus\n\n\n\n\n1\nComprensión del negocio\nCubierta en E0\n\n\n2\nComprensión de los datos\nEntrega posterior\n\n\n3\nPreparación de los datos\nEntrega posterior\n\n\n4\nModelado\nEntrega posterior\n\n\n5\nEvaluación\nEntrega posterior\n\n\n6\nDespliegue\nIntegrada en el reporte y la presentación final"
+  },
+  {
+    "objectID": "index.html#entregas",
+    "href": "index.html#entregas",
+    "title": "Proyecto Integrador — Almacenes y Minería de Datos",
+    "section": "Entregas",
+    "text": "Entregas\n\nE0 — Comprensión del negocio\n\nBitácora de la reunión con el stakeholder\nBusiness Understanding Canvas\nPreguntas de investigación priorizadas\nCriterio de éxito en términos de negocio\nRiesgos y supuestos\nDocumentación de uso de herramientas de IA"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/riesgos_supuestos.html",
+    "href": "entregas/E0_comprension_negocio/riesgos_supuestos.html",
+    "title": "Supuestos y riesgos",
+    "section": "",
+    "text": "Mínimo 2 riesgos reales y específicos al proyecto (no genéricos tipo “que falle el internet”): por ejemplo, disponibilidad o calidad incierta de los datos, sesgos en la fuente, ventana temporal insuficiente, o que el criterio de éxito del stakeholder no sea alcanzable con los datos disponibles. Cada riesgo debe incluir una mitigación propuesta."
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/riesgos_supuestos.html#supuestos",
+    "href": "entregas/E0_comprension_negocio/riesgos_supuestos.html#supuestos",
+    "title": "Supuestos y riesgos",
+    "section": "Supuestos",
+    "text": "Supuestos\n\n[Supuesto 1, p. ej. sobre disponibilidad futura de datos]\n[Supuesto 2]\n[Supuesto 3]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/riesgos_supuestos.html#riesgos",
+    "href": "entregas/E0_comprension_negocio/riesgos_supuestos.html#riesgos",
+    "title": "Supuestos y riesgos",
+    "section": "Riesgos",
+    "text": "Riesgos\n\n\n\n\n\n#\n\n\nRiesgo\n\n\nPor qué es específico a este proyecto\n\n\nMitigación propuesta\n\n\n\n\n\n\n1\n\n\n[Descripción del riesgo]\n\n\n[Por qué aplica concretamente a este problema/datos/stakeholder]\n\n\n[Acción o plan para mitigarlo]\n\n\n\n\n2\n\n\n[Descripción del riesgo]\n\n\n[Por qué aplica concretamente a este problema/datos/stakeholder]\n\n\n[Acción o plan para mitigarlo]\n\n\n\n\n3\n\n\n[Riesgo adicional, opcional]\n\n\n[Justificación]\n\n\n[Mitigación]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/preguntas.html",
+    "href": "entregas/E0_comprension_negocio/preguntas.html",
+    "title": "Preguntas de investigación priorizadas",
+    "section": "",
+    "text": "3–4 preguntas concretas y accionables (no genéricas), ordenadas por prioridad. Cada una debe conectar de forma explícita con el objetivo de minería de datos (p. ej. apuntar hacia una tarea de clasificación, regresión o segmentación)."
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-1-prioridad-alta",
+    "href": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-1-prioridad-alta",
+    "title": "Preguntas de investigación priorizadas",
+    "section": "1. [Pregunta de investigación 1] — Prioridad alta",
+    "text": "1. [Pregunta de investigación 1] — Prioridad alta\n\nConexión con el objetivo de minería de datos: [tipo de tarea, p. ej. clasificación / regresión / segmentación / detección de anomalías, y por qué]\nJustificación de la prioridad: [por qué esta pregunta es la más urgente o de mayor impacto]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-2-prioridad-altamedia",
+    "href": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-2-prioridad-altamedia",
+    "title": "Preguntas de investigación priorizadas",
+    "section": "2. [Pregunta de investigación 2] — Prioridad alta/media",
+    "text": "2. [Pregunta de investigación 2] — Prioridad alta/media\n\nConexión con el objetivo de minería de datos: [tipo de tarea y por qué]\nJustificación de la prioridad: [razón]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-3-prioridad-media",
+    "href": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-3-prioridad-media",
+    "title": "Preguntas de investigación priorizadas",
+    "section": "3. [Pregunta de investigación 3] — Prioridad media",
+    "text": "3. [Pregunta de investigación 3] — Prioridad media\n\nConexión con el objetivo de minería de datos: [tipo de tarea y por qué]\nJustificación de la prioridad: [razón]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-4-opcional-prioridad-mediabaja",
+    "href": "entregas/E0_comprension_negocio/preguntas.html#pregunta-de-investigación-4-opcional-prioridad-mediabaja",
+    "title": "Preguntas de investigación priorizadas",
+    "section": "4. [Pregunta de investigación 4, opcional] — Prioridad media/baja",
+    "text": "4. [Pregunta de investigación 4, opcional] — Prioridad media/baja\n\nConexión con el objetivo de minería de datos: [tipo de tarea y por qué]\nJustificación de la prioridad: [razón]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html",
+    "href": "entregas/E0_comprension_negocio/bitacora.html",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "",
+    "text": "Extensión sugerida: 1–2 páginas. Debe incluir fecha y modalidad de la reunión, nombre/rol del stakeholder (o la fuente que sustenta cada respuesta si fue simulado), las preguntas realizadas, las respuestas clave (cita o paráfrasis fiel) y una reflexión del equipo."
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#datos-de-la-reunión",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#datos-de-la-reunión",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Datos de la reunión",
+    "text": "Datos de la reunión\n\nFecha: [dd/mm/aaaa]\nModalidad: [Presencial / Videollamada / Ejercicio de rol documentado (stakeholder simulado)]\nDuración aproximada: [xx minutos]\nIntegrantes del equipo presentes: [Nombre 1, Nombre 2, …]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#stakeholder",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#stakeholder",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Stakeholder",
+    "text": "Stakeholder\n\nNombre y rol: [Nombre completo, cargo, institución u organización]\nTipo de stakeholder: [Real / Simulado]\nJustificación (solo si es simulado): [Explicar por qué no fue posible el acceso real al stakeholder]\nFuentes que sustentan las respuestas (solo si es simulado): ver fuentes y detalle citado junto a cada respuesta abajo."
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#guion-de-preguntas-realizadas",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#guion-de-preguntas-realizadas",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Guion de preguntas realizadas",
+    "text": "Guion de preguntas realizadas\n\n[Pregunta 1]\n[Pregunta 2]\n[Pregunta 3]\n[Pregunta 4]\n[Pregunta 5]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#respuestas-clave",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#respuestas-clave",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Respuestas clave",
+    "text": "Respuestas clave\n\n[Pregunta 1]\n\n[Cita textual o paráfrasis fiel de la respuesta del stakeholder]\n\nFuente que sustenta la respuesta (solo si es simulado): [cita completa / enlace / informe]\n\n\n[Pregunta 2]\n\n[Cita textual o paráfrasis fiel de la respuesta del stakeholder]\n\nFuente que sustenta la respuesta (solo si es simulado): [cita completa / enlace / informe]\n\n\n[Pregunta 3]\n\n[Cita textual o paráfrasis fiel de la respuesta del stakeholder]\n\nFuente que sustenta la respuesta (solo si es simulado): [cita completa / enlace / informe]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#decisiones-que-hoy-se-toman-sin-apoyo-de-datos",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#decisiones-que-hoy-se-toman-sin-apoyo-de-datos",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Decisiones que hoy se toman sin apoyo de datos",
+    "text": "Decisiones que hoy se toman sin apoyo de datos\n[Descripción de las decisiones operativas o de negocio que el stakeholder toma actualmente de forma manual o intuitiva, sin respaldo de datos.]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#restricciones-operativas-identificadas",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#restricciones-operativas-identificadas",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Restricciones operativas identificadas",
+    "text": "Restricciones operativas identificadas\n[Restricciones de tiempo, presupuesto, disponibilidad de datos, regulación, capacidad técnica, etc., mencionadas por el stakeholder.]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#qué-significaría-éxito-desde-la-perspectiva-del-stakeholder",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#qué-significaría-éxito-desde-la-perspectiva-del-stakeholder",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Qué significaría “éxito” desde la perspectiva del stakeholder",
+    "text": "Qué significaría “éxito” desde la perspectiva del stakeholder\n[Síntesis, en las propias palabras del stakeholder, de qué consideraría un resultado exitoso.]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/bitacora.html#reflexión-del-equipo",
+    "href": "entregas/E0_comprension_negocio/bitacora.html#reflexión-del-equipo",
+    "title": "Bitácora de la reunión con el stakeholder",
+    "section": "Reflexión del equipo",
+    "text": "Reflexión del equipo\n[1–2 párrafos: qué cambió en el entendimiento del problema por parte del equipo después de la entrevista, qué supuestos iniciales se confirmaron o se descartaron.]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/canvas.html",
+    "href": "entregas/E0_comprension_negocio/canvas.html",
+    "title": "Business Understanding Canvas",
+    "section": "",
+    "text": "Debe leerse de forma autónoma, en una sola pantalla/página, sin necesidad del resto del sitio. Sintetiza: objetivo de negocio, objetivo de minería de datos, stakeholders y beneficiarios, situación actual / dolor del problema, restricciones y recursos disponibles, criterio de éxito y riesgos principales.\n\n\n\nObjetivo de negocio\n\n[Enunciado del objetivo en el lenguaje del dominio del stakeholder, no en el de minería de datos.]\n\n\n\nObjetivo de minería de datos\n\n[Traducción técnica del objetivo: predecir, segmentar, detectar anomalías, clasificar, etc.]\n\n\n\nStakeholders\n\n\n[Stakeholder principal]\n\n\n[Otros actores relevantes]\n\n\n\n\nBeneficiarios finales\n\n\n[Quién se beneficia del resultado]\n\n\n\n\nSituación actual / dolor del problema\n\n[Descripción breve de cómo se vive hoy el problema, sin apoyo de datos.]\n\n\n\nRestricciones\n\n\n[Tiempo, presupuesto, datos, regulación, capacidad técnica]\n\n\n\n\nRecursos disponibles\n\n\n[Datos, herramientas, personas, infraestructura]\n\n\n\n\nCriterio de éxito\n\n[Enunciado verificable y medible en términos de negocio. Ver detalle en criterio_exito.qmd.]\n\n\n\nRiesgos principales\n\n\n[Riesgo 1, resumido]\n\n\n[Riesgo 2, resumido]\n\n\n\nDetalle completo en riesgos_supuestos.qmd.\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/criterio_exito.html",
+    "href": "entregas/E0_comprension_negocio/criterio_exito.html",
+    "title": "Criterio de éxito en términos de negocio",
+    "section": "",
+    "text": "Debe ser un enunciado verificable y medible, expresado en el lenguaje del stakeholder — no en métricas de modelo. Ejemplo: “reducir en 20 % el tiempo de atención de reportes” en lugar de “lograr un F1-score de 0.85”. Debe indicarse también cómo ese criterio se relacionará, más adelante, con una métrica técnica."
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/criterio_exito.html#enunciado-del-criterio-de-éxito",
+    "href": "entregas/E0_comprension_negocio/criterio_exito.html#enunciado-del-criterio-de-éxito",
+    "title": "Criterio de éxito en términos de negocio",
+    "section": "Enunciado del criterio de éxito",
+    "text": "Enunciado del criterio de éxito\n\n[Enunciado verificable y medible, en el lenguaje de negocio del stakeholder.]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/criterio_exito.html#cómo-se-verificará",
+    "href": "entregas/E0_comprension_negocio/criterio_exito.html#cómo-se-verificará",
+    "title": "Criterio de éxito en términos de negocio",
+    "section": "Cómo se verificará",
+    "text": "Cómo se verificará\n\nFuente de datos / evidencia: [de dónde saldrá la evidencia para verificar el criterio]\nLínea base actual: [valor o situación actual antes de la intervención, si se conoce]\nMeta / umbral objetivo: [valor o condición que definiría el éxito]\nHorizonte de tiempo: [plazo en el que se espera observar el resultado]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/criterio_exito.html#vínculo-con-una-métrica-técnica-futura",
+    "href": "entregas/E0_comprension_negocio/criterio_exito.html#vínculo-con-una-métrica-técnica-futura",
+    "title": "Criterio de éxito en términos de negocio",
+    "section": "Vínculo con una métrica técnica futura",
+    "text": "Vínculo con una métrica técnica futura\n[Explicar cómo el criterio de negocio se traducirá, en fases posteriores del proyecto, en una métrica técnica de evaluación del modelo (p. ej. precisión, recall, error absoluto medio, etc.), y por qué esa métrica es un buen proxy del criterio de negocio.]"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/uso_ia.html",
+    "href": "entregas/E0_comprension_negocio/uso_ia.html",
+    "title": "Documentación de uso de herramientas de IA",
+    "section": "",
+    "text": "El uso de LLMs (ChatGPT, Claude, Copilot, Gemini, etc.) no está prohibido, pero debe documentarse de forma explícita y honesta. Para cada uso, registrar herramienta, tarea, prompts empleados y qué se hizo con la salida obtenida (revisión, corrección, validación). No se acepta copiar y pegar una respuesta de un LLM sin revisión crítica.\nSi el equipo no utilizó ninguna herramienta de IA en esta entrega, borrar la tabla de abajo y dejar únicamente la frase: “No se utilizaron herramientas de IA en esta entrega.”"
+  },
+  {
+    "objectID": "entregas/E0_comprension_negocio/uso_ia.html#registro-de-usos",
+    "href": "entregas/E0_comprension_negocio/uso_ia.html#registro-de-usos",
+    "title": "Documentación de uso de herramientas de IA",
+    "section": "Registro de usos",
+    "text": "Registro de usos\n\n\n\n\n\nHerramienta\n\n\nTarea\n\n\nPrompt(s) empleado(s)\n\n\nQué se hizo con la salida\n\n\n\n\n\n\nClaude Code (Claude Sonnet 5, Anthropic)\n\n\nGenerar el andamiaje inicial del repositorio y del sitio Quarto: estructura de carpetas, páginas .qmd por entregable, configuración de navegación y estilos visuales.\n\n\nResumen fiel: se pidió construir el repositorio con la estructura de carpetas y archivos exigida por el instructivo de la entrega E0 (entregas/E0_comprension_negocio/ con sus seis páginas, _quarto.yml con output-dir: docs, y README.md), usando solo plantillas con marcadores de posición, sin inventar contenido de negocio; después se pidió documentar aquí el prompt usado de forma resumida.\n\n\nSe revisó cada archivo generado, se verificó que no incluyera información de negocio inventada (solo placeholders entre corchetes), se ajustó el diseño visual y se corrió quarto render para confirmar que el sitio compila sin errores. El equipo debe completar el contenido real (bitácora, Canvas, preguntas, criterio de éxito, riesgos) antes de la entrega."
+  }
+]

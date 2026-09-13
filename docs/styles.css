@@ -1,0 +1,185 @@
+/* Estilo moderno, limpio y profesional para el sitio del proyecto. */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");
+
+:root {
+  --ink: #14181f;
+  --muted: #5b6472;
+  --line: #e4e7ec;
+  --surface: #f7f8fa;
+  --accent: #2f5ee8;
+  --accent-ink: #1d3fa3;
+  --warn: #b45309;
+  --warn-bg: #fdf3e2;
+  --radius: 10px;
+}
+
+body {
+  font-family: "Inter", "Source Serif 4", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: var(--ink);
+  letter-spacing: -0.005em;
+}
+
+p, li {
+  line-height: 1.65;
+}
+
+.navbar, h1, h2, h3, h4, .sidebar-title {
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+.navbar-title {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+main.content h1.title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0.3rem;
+  position: relative;
+}
+
+main.content h1.title::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 4px;
+  margin-top: 0.7rem;
+  border-radius: 2px;
+  background: var(--accent);
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 2.2rem;
+}
+
+h3, h4 {
+  font-weight: 600;
+}
+
+a {
+  color: var(--accent-ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+/* Callout / nota de plantilla */
+.todo {
+  background: var(--warn-bg);
+  border: 1px solid #f2dfb8;
+  border-left: 3px solid var(--warn);
+  padding: 0.85rem 1.1rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-size: 0.92rem;
+  color: #6b4a10;
+  margin: 1.2rem 0;
+}
+
+.placeholder {
+  color: #b23b34;
+  font-style: italic;
+}
+
+/* Business Understanding Canvas */
+.canvas-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 0.9rem;
+  margin: 1.6rem 0 2.2rem 0;
+}
+
+.canvas-block {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  background: #ffffff;
+  min-height: 120px;
+  box-shadow: 0 1px 2px rgba(20, 24, 31, 0.04);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.canvas-block:hover {
+  box-shadow: 0 4px 14px rgba(20, 24, 31, 0.08);
+  border-color: #d3d8e0;
+}
+
+.canvas-block h4 {
+  margin-top: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-ink);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.55rem;
+}
+
+.canvas-block p, .canvas-block ul {
+  font-size: 0.92rem;
+  margin: 0;
+  color: var(--ink);
+}
+
+.canvas-span-2 { grid-column: span 2; }
+.canvas-span-4 { grid-column: span 4; }
+
+@media (max-width: 760px) {
+  .canvas-grid {
+    grid-template-columns: 1fr;
+  }
+  .canvas-span-2, .canvas-span-4 {
+    grid-column: span 1;
+  }
+}
+
+/* Tablas */
+table.riesgos {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  font-size: 0.92rem;
+}
+table.riesgos th, table.riesgos td {
+  padding: 0.65rem 0.85rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+table.riesgos tr:last-child td {
+  border-bottom: none;
+}
+table.riesgos th {
+  background: var(--surface);
+  text-align: left;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+
+table:not(.riesgos) {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+table:not(.riesgos) th {
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid var(--line);
+}
+table:not(.riesgos) td {
+  border-bottom: 1px solid var(--line);
+}
