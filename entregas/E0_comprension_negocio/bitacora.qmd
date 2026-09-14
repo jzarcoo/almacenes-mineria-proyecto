@@ -38,10 +38,10 @@ se aplica de forma medible a la música.
 
 | Hora / Marca | Tema / Bloque | Puntos Tratados y Discusión |
 |---|---|---|
-| [17:00 - 17:10] | Apertura y Alineación | Se presentaron los 4 integrantes del equipo y A. Se confirmó el objetivo de la sesión: definir el alcance del proyecto de análisis de misoginia musical y violencia de género que A. propuso, y se revisó la agenda para el resto de la reunión. |
-| [17:10 - 17:25] | Levantamiento de Requerimientos | Se discutió por qué este análisis hace falta —el vacío que A. identificó en su propio trabajo de monitoreo de medios— y qué patrones concretos le interesa medir: distribución geográfica, presencia por género musical, tipo de violencia, y su posible correlación con la violencia real en las poblaciones que consumen esa música. Se abordó también la necesidad de un análisis temporal y de un mecanismo de monitoreo que sea replicable en el futuro. |
-| [17:25 - 17:35] | Factibilidad Técnica y Datos | Se revisaron las fuentes disponibles para construir el corpus musical y los indicadores de violencia de género, así como su periodicidad (mensual, anual) y las condiciones de acceso a cada una. |
-| [17:35 - 17:40] | Cierre y Compromisos | Se resumieron los acuerdos sobre alcance y métrica primaria, se asignaron responsables entre los 4 integrantes del equipo, y se definió la fecha de entrega del Business Understanding Canvas para validación con A. |
+| [17:00 - 17:10] | Apertura y Alineación | Nos presentamos los 4 integrantes del equipo junto con A. Confirmamos el objetivo de la sesión: definir el alcance del proyecto de análisis de misoginia musical y violencia de género que A. propuso, y revisamos la agenda para el resto de la reunión. |
+| [17:10 - 17:25] | Levantamiento de Requerimientos | Discutimos por qué hace falta este análisis, retomando el vacío que A. identificó en su propio trabajo de monitoreo de medios, y qué patrones concretos le interesa medir: distribución geográfica, presencia por género musical, tipo de violencia, y su posible correlación con la violencia real en las poblaciones que consumen esa música. También hablamos de la necesidad de un análisis temporal y de un mecanismo de monitoreo que sea replicable en el futuro. |
+| [17:25 - 17:35] | Factibilidad Técnica y Datos | Revisamos las fuentes disponibles para construir el corpus musical y los indicadores de violencia de género, así como su periodicidad (mensual, anual) y las condiciones de acceso a cada una. |
+| [17:35 - 17:40] | Cierre y Compromisos | Resumimos los acuerdos sobre alcance y métrica primaria, asignamos responsables entre los 4 integrantes del equipo, y definimos la fecha de entrega del Business Understanding Canvas para validación con A. |
 
 ## 4. Preguntas Formuladas y Respuestas Clave
 
@@ -151,12 +151,12 @@ se aplica de forma medible a la música.
 
 ## 5. Decisiones y Acuerdos
 
-- **Alcance definido:** Para esta primera fase, el equipo construye dos entregables independientes:
+- **Alcance definido:** Para esta primera fase construimos dos entregables independientes:
   un diagnóstico descriptivo del contenido misógino en la música que se consume en México
   (desagregado por entidad, género musical y tiempo), y un análisis de correlación entre ese
   contenido y los indicadores oficiales de violencia de género. El resultado del segundo entregable,
   haya o no correlación significativa, no condiciona el éxito del primero, ya que ambos responden al
-  vacío que A. identificó como faltante. Queda fuera de esta fase analizar o recomendar cualquier
+  vacío que A. identificó como faltante. Dejamos fuera de esta fase analizar o recomendar cualquier
   medida regulatoria.
 - **Métrica primaria de impacto:** Dos métricas independientes:
   1. la cobertura y consistencia del índice de misoginia musical construido (componente descriptivo), y
@@ -164,12 +164,12 @@ se aplica de forma medible a la música.
      género (componente de correlación).
 
   A. usará ambos entregables para decidir si vale la pena institucionalizar el monitoreo.
-- **Dependencias y flujos:** El equipo entrega el Business Understanding Canvas a A. para su
-  validación antes de avanzar a la siguiente fase; solo con ese visto bueno se procede a trabajar con
-  datos. A. quedó de indicar, en una siguiente sesión, con qué periodicidad querría que se actualizará
-  el diagnóstico si el piloto resulta útil. Los datos accesados serán públicos: datos obtenidos del
-  gobierno sobre violencia de género y datasets disponibles sobre las tendencias de la música y su
-  contenido. Además de datasets ya etiquetados con frases o textos con contenido misógino.
+- **Dependencias y flujos:** Entregamos el Business Understanding Canvas a A. para su
+  validación antes de avanzar a la siguiente fase; solo con ese visto bueno empezamos a trabajar con
+  datos. A. quedó de indicar, en una siguiente sesión, con qué periodicidad querría actualizar
+  el diagnóstico si el piloto resulta útil. Los datos que usaremos son públicos: datos obtenidos del
+  gobierno sobre violencia de género, datasets disponibles sobre las tendencias de la música y su
+  contenido, y datasets ya etiquetados con frases o textos con contenido misógino.
 
 ## 6. Pendientes y Próximos Pasos (Action Items)
 
@@ -187,9 +187,9 @@ se aplica de forma medible a la música.
 | Establecer un tablero de encargado de actividades por sprint | | |
 
 ::: {.todo}
-La fecha límite de la tercera fila ("13 septiembre de 2026") y el orden de las filas se conservan tal como
-aparecen en el documento original de la bitácora, incluyendo el error de dedo "sepritmebre" corregido
-aquí a "septiembre" por tratarse de un error evidente de tipeo sin ambigüedad sobre el texto original.
+Conservamos la fecha límite de la tercera fila ("13 septiembre de 2026") y el orden de las filas tal como
+quedaron en el documento original de la bitácora. Solo corregimos el error de dedo "sepritmebre" por
+"septiembre", porque el texto original era inequívoco.
 :::
 
 ## Reflexión sobre qué cambió en nuestro entendimiento del problema tras la entrevista
@@ -209,24 +209,23 @@ más personas de las que llegaría un discurso aislado [1]. La música, específ
 señalada por ella como una de las fuentes de ese problema en México, pero nunca se había medido con
 el mismo rigor que otros medios [1]. Eso es lo que decidimos que el proyecto debía resolver.
 
-Por otro lado, aunque queda fuera del dominio de este proyecto, también se pudo reflexionar y
-preguntar si el reguetón pudo reivindicarse como espacio de empoderamiento femenino, pues es bien
-sabido que ha evolucionado y cada vez hay más mujeres en el género con letras e ideas diferentes a las
-del inicio del reguetón. Y esto nos hizo replantear el criterio de éxito, así entendimos que encontrar o no
-una correlación con la violencia real no invalida el diagnóstico, y es altamente probable que se
-encuentren tanto nuevas interpretaciones como asociaciones sin haberlas considerado desde estas
-primeras etapas; nuestro objetivo será el indicado en esta bitácora pero también puede que tras
-analizar patrones se llegue a modificar o ampliar.
+Aunque queda fuera del dominio de este proyecto, también nos preguntamos si el reguetón pudo
+reivindicarse como espacio de empoderamiento femenino, pues es bien sabido que ha evolucionado y
+cada vez hay más mujeres en el género con letras e ideas diferentes a las del inicio del reguetón. Esto
+nos hizo replantear el criterio de éxito: entendimos que encontrar o no una correlación con la violencia
+real no invalida el diagnóstico, y es altamente probable que encontremos tanto nuevas interpretaciones
+como asociaciones que no habíamos considerado desde estas primeras etapas. Nuestro objetivo sigue
+siendo el indicado en esta bitácora, pero también puede que, tras analizar los patrones, terminemos
+modificándolo o ampliándolo.
 
 ## Nota {#nota}
 
-- Debido a la dificultad de acceder directamente a especialistas que trabajen simultáneamente
-  con violencia de género, comunicación y análisis musical, el equipo decidió realizar un ejercicio
-  de stakeholder simulado. El perfil seleccionado corresponde al de una investigadora
-  especializada en monitoreo de medios de comunicación y violencia de género en México,
-  inspirado en la línea de trabajo académica de Aimée Vega Montiel (UNAM/ONU Mujeres). Cada
-  respuesta del perfil simulado está fundamentada en fuentes reales y verificables, citadas a lo
-  largo de esta bitácora.
+- Nos costó trabajo acceder directamente a especialistas que trabajen simultáneamente con
+  violencia de género, comunicación y análisis musical, así que decidimos realizar un ejercicio de
+  stakeholder simulado. El perfil que elegimos corresponde al de una investigadora especializada
+  en monitoreo de medios de comunicación y violencia de género en México, inspirado en la línea
+  de trabajo académica de Aimée Vega Montiel (UNAM/ONU Mujeres). Cada respuesta del perfil
+  simulado está fundamentada en fuentes reales y verificables, citadas a lo largo de esta bitácora.
 
 ## Referencias
 

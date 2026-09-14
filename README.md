@@ -8,10 +8,10 @@ Pages.
 
 ## Integrantes
 
-- [Nombre completo 1]
-- [Nombre completo 2]
-- [Nombre completo 3]
-- [Nombre completo 4]
+- Flores Morán Julieta Melina
+- García Landa Brenda Yareli
+- Jiménez Rivera Emiliano Kaleb
+- Zarco Romero José Antonio
 
 ## Estructura del repositorio
 

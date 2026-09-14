@@ -8,8 +8,9 @@ title: "Criterio de éxito en términos de negocio"
 > actualidad, con su distribución geográfica, por género musical y en el tiempo, que permita saber si
 > existe correlación con la violencia de género real y que quede como mecanismo de monitoreo
 > continuo, no como un análisis de una sola vez, para poder medir si las recomendaciones y esfuerzos
-> existentes han tenido efecto. — Definición de éxito dada por el stakeholder (A.) durante la reunión
-> (ver [bitácora](bitacora.qmd)).
+> existentes han tenido efecto.
+
+*Así definió el éxito el stakeholder (A.) durante la reunión (ver [bitácora](bitacora.qmd)).*
 
 En términos operativos, el Canvas desglosa esta definición en dos KPI cuantificables e independientes:
 
