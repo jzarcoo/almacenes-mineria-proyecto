@@ -22,10 +22,7 @@ violencia de género. La industria musical ha sido señalada como una de las pri
 contenido misógino en el país, pero, a diferencia de la televisión, la publicidad y las telenovelas, nunca
 ha sido sometida al mismo rigor de análisis cuantitativo. Trabajamos con un stakeholder simulado: un
 perfil de investigador(a) en monitoreo de medios y violencia de género, inspirado en la línea de trabajo
-académica de Aimée Vega Montiel (UNAM/ONU Mujeres). A partir de ahí construimos dos entregables
-independientes: un diagnóstico descriptivo del contenido misógino en la música consumida en México
-(por entidad, género musical y tiempo) y un análisis de correlación entre ese índice y los indicadores
-oficiales de violencia de género del SESNSP. El levantamiento completo del problema está en la
+académica de Aimée Vega Montiel (UNAM/ONU Mujeres). El levantamiento completo del problema está en la
 [bitácora](entregas/E0_comprension_negocio/bitacora.qmd) y en el
 [Business Understanding Canvas](entregas/E0_comprension_negocio/canvas.qmd) de la entrega E0.
 
