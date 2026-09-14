@@ -165,8 +165,8 @@ se aplica de forma medible a la música.
   vacío que A. identificó como faltante. Dejamos fuera de esta fase analizar o recomendar cualquier
   medida regulatoria.
 - **Métrica primaria de impacto:** Dos métricas independientes:
-  1. la cobertura y consistencia del índice de misoginia musical construido (componente descriptivo), y
-  2. el nivel de correlación encontrado, sea cual sea, entre ese índice y los indicadores de violencia de
+  1. La cobertura y consistencia del índice de misoginia musical construido (componente descriptivo).
+  2. El nivel de correlación encontrado, sea cual sea, entre ese índice y los indicadores de violencia de
      género (componente de correlación).
 
   A. usará ambos entregables para decidir si vale la pena institucionalizar el monitoreo.
@@ -181,8 +181,8 @@ se aplica de forma medible a la música.
 
 | Acción / Entregable | Dueño / Responsable | Fecha Límite |
 |---|---|---|
-| Hacer la recopilación de los datasets necesarios para el análisis, hacer la verificación y aprobación sobre estas fuentes | [Responsable 1] | 20 septiembre de 2026 |
-| Resolver restricciones sobre copyright para reunir las letras | | 18 septiembre de 2026 |
+| Hacer la recopilación de los datasets necesarios para el análisis, hacer la verificación y aprobación sobre estas fuentes | Equipo | 20 septiembre de 2026 |
+| Resolver restricciones sobre copyright para reunir las letras | Equipo | 18 septiembre de 2026 |
 | Entregar canvas de entendimiento o propuesta técnica para validación | Equipo | 13 septiembre de 2026 |
 | Validar propuesta técnica y dar luz verde para extracción de datos | | |
 | Investigación opcional de otros géneros relacionados con misoginia | | |
