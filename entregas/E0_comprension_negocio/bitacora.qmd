@@ -177,8 +177,8 @@ se aplica de forma medible a la música.
 |---|---|---|
 | Hacer la recopilación de los datasets necesarios para el análisis, hacer la verificación y aprobación sobre estas fuentes | [Responsable 1] | 20 septiembre de 2026 |
 | Resolver restricciones sobre copyright para reunir las letras | | 18 septiembre de 2026 |
-| Entregar canvas de entendimiento o propuesta técnica para validación | [Tu Nombre] | 13 septiembre de 2026 |
-| Validar propuesta técnica y dar luz verde para extracción de datos | [Sponsor / Lead] | [DD de Mes, AAAA] |
+| Entregar canvas de entendimiento o propuesta técnica para validación | Equipo | 13 septiembre de 2026 |
+| Validar propuesta técnica y dar luz verde para extracción de datos | | |
 | Investigación opcional de otros géneros relacionados con misoginia | | |
 | Consultar opcional a compañeros universitarios en Psicología, Filosofía y Letras y/o Ciencias Políticas y Sociales | | |
 | Identificar variables de control como condiciones socioeconómicas y normas sociales (para no correlacionar sin sentido) | | |
@@ -186,11 +186,6 @@ se aplica de forma medible a la música.
 | Definir métrica de misoginia y primeras pruebas usándola | | |
 | Establecer un tablero de encargado de actividades por sprint | | |
 
-::: {.todo}
-Conservamos la fecha límite de la tercera fila ("13 septiembre de 2026") y el orden de las filas tal como
-quedaron en el documento original de la bitácora. Solo corregimos el error de dedo "sepritmebre" por
-"septiembre", porque el texto original era inequívoco.
-:::
 
 ## Reflexión sobre qué cambió en nuestro entendimiento del problema tras la entrevista
 

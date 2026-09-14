@@ -65,9 +65,3 @@ componentes del proyecto (descriptivo y de correlación).</td>
 </tbody>
 </table>
 :::
-
-::: {.todo}
-Los cuatro riesgos y los tres supuestos de esta página vienen íntegros de la sección "3. Evaluación de
-la Situación" del [Business Understanding Canvas](canvas.qmd), que construimos junto con el
-stakeholder simulado. No los resumimos ni los redujimos respecto al documento original.
-:::

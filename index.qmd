@@ -10,11 +10,10 @@ subtitle: "Facultad de Ciencias, UNAM"
     - García Landa Brenda Yareli
     - Jiménez Rivera Emiliano Kaleb
     - Zarco Romero José Antonio
-- **Cuentas / correos:** [correo1@ciencias.unam.mx], [correo2@ciencias.unam.mx]
 - **Profesora:** Jessica Santizo Galicia
 - **Ayudante de Teoría:** Diego Antonio Villalba González
 - **Ayudante de Laboratorio:** Emma Alicia Jiménez Sánchez
-- **Semestre:** [2026-1]
+- **Semestre:** [2027-1]
 
 ## Descripción del proyecto
 
