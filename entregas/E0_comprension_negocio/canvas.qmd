@@ -187,15 +187,12 @@ entregables técnicos de ciencia de datos:
 - **Factibilidad Operativa:** antes de modelar, valida exhaustivamente los requisitos de stock,
   gobernanza de datos y tiempos de despliegue en la Sección 3.
 
-## Referencias del Canvas
+## Referencias 
 
-1. Vega Montiel, A. (2011). *La responsabilidad de los medios de comunicación en la erradicación de la
-   violencia contra las mujeres y las niñas*, UNAM/ONU Mujeres.
-   <https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf>
-2. Observatorioviolencia.org (2019). *La violencia contra las mujeres en los medios de comunicación, a
-   debate en la ONU*.
-   <https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/>
-3. Arévalo, Chellew, Figueroa-Cofré, Arancibia-Villablanca y Schmied (2018). *Ni pobre diabla, ni candy:
-   Violencia de género del reggaetón*. <https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797>
-4. Gaceta Politécnica, IPN — entrevista a Tania Alcántara (MiSonGyny).
-   <https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562>
+1. Vega Montiel, A. (2011). *La responsabilidad de los medios de comunicación en la erradicación de la violencia contra las mujeres y las niñas*. UNAM/ONU Mujeres. https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf
+
+2. Observatorio de la Violencia. (2019). *La violencia contra las mujeres en los medios de comunicación, a debate en la ONU*. https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/
+
+3. Arévalo, C., Chellew, P., Figueroa-Cofré, C., Arancibia-Villablanca, P., y Schmied, C. (2018). Ni pobre diabla, ni candy: Violencia de género del reggaetón. *Revista de Sociología*. https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797
+
+4. Gaceta Politécnica, IPN. (s.f.). *Del romanticismo a la misoginia, ¿qué dicen las canciones en español?* [Entrevista a Tania Alcántara]. https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562
