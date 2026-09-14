@@ -188,13 +188,13 @@ se aplica de forma medible a la música.
 | Hacer la recopilación de los datasets necesarios para el análisis, hacer la verificación y aprobación sobre estas fuentes | Equipo | 20 septiembre de 2026 |
 | Resolver restricciones sobre copyright para reunir las letras | Equipo | 18 septiembre de 2026 |
 | Entregar canvas de entendimiento o propuesta técnica para validación | Equipo | 13 septiembre de 2026 |
-| Validar propuesta técnica y dar luz verde para extracción de datos | | |
-| Investigación opcional de otros géneros relacionados con misoginia | | |
-| Consultar opcional a compañeros universitarios en Psicología, Filosofía y Letras y/o Ciencias Políticas y Sociales | | |
-| Identificar variables de control como condiciones socioeconómicas y normas sociales (para no correlacionar sin sentido) | | |
-| Análisis Exploratorio de Datos | | |
-| Definir métrica de misoginia y primeras pruebas usándola | | |
-| Establecer un tablero de encargado de actividades por sprint | | |
+| Validar propuesta técnica y dar luz verde para extracción de datos | Equipo | 22 septiembre de 2026 |
+| Investigación opcional de otros géneros relacionados con misoginia | Equipo | 25 septiembre de 2026 |
+| Consultar opcional a compañeros universitarios en Psicología, Filosofía y Letras y/o Ciencias Políticas y Sociales | Equipo | 27 septiembre de 2026 |
+| Identificar variables de control como condiciones socioeconómicas y normas sociales (para no correlacionar sin sentido) | Equipo | 30 septiembre de 2026 |
+| Análisis Exploratorio de Datos | Equipo | 04 octubre de 2026 |
+| Definir métrica de misoginia y primeras pruebas usándola | Equipo | 09 octubre de 2026 |
+| Establecer un tablero de encargado de actividades por sprint | Equipo | 11 octubre de 2026 |
 
 
 ## Reflexión sobre qué cambió en nuestro entendimiento del problema tras la entrevista
@@ -234,28 +234,28 @@ modificándolo o ampliándolo.
 
 ## Referencias
 
-1. Vega Montiel, A. (2011). *La responsabilidad de los medios de comunicación en la erradicación de la violencia contra las mujeres y las niñas*. UNAM/ONU Mujeres. https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf
+1. Vega Montiel, A. (2011). *La responsabilidad de los medios de comunicación en la erradicación de la violencia contra las mujeres y las niñas*. UNAM/ONU Mujeres. <https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf>
 
-2. Observatorio de la Violencia. (2019). *La violencia contra las mujeres en los medios de comunicación, a debate en la ONU*. https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/
+2. Observatorio de la Violencia. (2019). *La violencia contra las mujeres en los medios de comunicación, a debate en la ONU*. <https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/>
 
-3. Excélsior. (2020, 2 de marzo). *Proponen en Senado prohibir el reggaetón en todo el país*. https://www.excelsior.com.mx/nacional/proponen-en-senado-prohibir-el-reggaeton-en-todo-el-pais/1367364
+3. Excélsior. (2020, 2 de marzo). *Proponen en Senado prohibir el reggaetón en todo el país*. <https://www.excelsior.com.mx/nacional/proponen-en-senado-prohibir-el-reggaeton-en-todo-el-pais/1367364>
 
-4. evidente.mx. (2019). *Morena en Sinaloa plantea prohibir reggaetón y narcocorridos en escuelas*. https://evidente.mx/noticias/4047-morena-en-sinaloa-plantea-prohibir-reggaeton-y-narcocorridos-en-escuelas.html
+4. evidente.mx. (2019). *Morena en Sinaloa plantea prohibir reggaetón y narcocorridos en escuelas*. <https://evidente.mx/noticias/4047-morena-en-sinaloa-plantea-prohibir-reggaeton-y-narcocorridos-en-escuelas.html>
 
-5. Gaceta Politécnica, IPN. (s.f.). *Del romanticismo a la misoginia, ¿qué dicen las canciones en español?* [Entrevista a Tania Alcántara]. https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562
+5. Gaceta Politécnica, IPN. (s.f.). *Del romanticismo a la misoginia, ¿qué dicen las canciones en español?* [Entrevista a Tania Alcántara]. <https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562>
 
-6. Wikipedia. (s.f.). *María Salguero Bañuelos*. https://es.wikipedia.org/wiki/Mar%C3%ADa_Salguero_Ba%C3%B1uelos
+6. Wikipedia. (s.f.). *María Salguero Bañuelos*. <https://es.wikipedia.org/wiki/Mar%C3%ADa_Salguero_Ba%C3%B1uelos>
 
-7. Arévalo, C., Chellew, P., Figueroa-Cofré, C., Arancibia-Villablanca, P., y Schmied, C. (2018). Ni pobre diabla, ni candy: Violencia de género del reggaetón. *Revista de Sociología*. https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797
+7. Arévalo, C., Chellew, P., Figueroa-Cofré, C., Arancibia-Villablanca, P., y Schmied, C. (2018). Ni pobre diabla, ni candy: Violencia de género del reggaetón. *Revista de Sociología*. <https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797>
 
-8. Fersini, E., Rosso, P., y Anzovino, M. (2018). Overview of the task on automatic misogyny identification at IberEval 2018. En *Proceedings of the Third Workshop on Evaluation of Human Language Technologies for Iberian Languages (IberEval 2018)*. https://ceur-ws.org/Vol-2150/overview-AMI.pdf
+8. Fersini, E., Rosso, P., y Anzovino, M. (2018). Overview of the task on automatic misogyny identification at IberEval 2018. En *Proceedings of the Third Workshop on Evaluation of Human Language Technologies for Iberian Languages (IberEval 2018)*. <https://ceur-ws.org/Vol-2150/overview-AMI.pdf>
 
-9. Necropolítica cultural: Un análisis de los corridos tumbados en México. (2024). https://revistaiberociencias.org/index.php/multidisciplinar/article/download/822/2500/4849
+9. Necropolítica cultural: Un análisis de los corridos tumbados en México. (2024). <https://revistaiberociencias.org/index.php/multidisciplinar/article/download/822/2500/4849>
 
-10. Ley General de Acceso de las Mujeres a una Vida Libre de Violencia. (2007, con reformas posteriores). Cámara de Diputados. https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAMVLV.pdf
+10. Ley General de Acceso de las Mujeres a una Vida Libre de Violencia. (2007, con reformas posteriores). Cámara de Diputados. <https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAMVLV.pdf>
 
-11. Soler Campo, S., Faure-Carvallo, A., y Vernia Carrasco, A. M. (2022). Reguetón y representaciones de la mujer: un estudio en la Educación Secundaria. *Revista Internacional de Educación Musical*, (10), 25–32. https://doi.org/10.1177/23074841221131431
+11. Soler Campo, S., Faure-Carvallo, A., y Vernia Carrasco, A. M. (2022). Reguetón y representaciones de la mujer: un estudio en la Educación Secundaria. *Revista Internacional de Educación Musical*, (10), 25–32. <https://doi.org/10.1177/23074841221131431>
 
 12. Alcántara, T., Soto, M., Macías, C., García-Vázquez, O., Espinosa-Juárez, A., Calvo, H., Valdez-Rodríguez, J. E., y Felipe-Riverón, E. (2025). Overview of MiSonGyny at IberLEF 2025: Misogyny speech detection in Spanish language song lyrics. *Procesamiento del Lenguaje Natural*, 75.
 
-13. Hormigos-Ruiz, J., Gómez-Escarda, M., y Perelló-Oliver, S. (2018). Música y violencia de género en España: Estudio comparado por estilos musicales. *Convergencia*, 25(76). https://www.researchgate.net/publication/321924845_Musica_y_violencia_de_genero_en_Espana_Estudio_comparado_por_estilos_musicales
+13. Hormigos-Ruiz, J., Gómez-Escarda, M., y Perelló-Oliver, S. (2018). Música y violencia de género en España: Estudio comparado por estilos musicales. *Convergencia*, 25(76). <https://www.researchgate.net/publication/321924845_Musica_y_violencia_de_genero_en_Espana_Estudio_comparado_por_estilos_musicales>

@@ -135,6 +135,65 @@ body::after {
   margin-right: 0.15rem;
 }
 
+// El título es largo y, en flexbox, un elemento con texto no se encoge por
+// debajo de su ancho de contenido a menos que se lo indiquemos: sin esto,
+// el navbar se "amontona"/se desborda en vez de ajustarse en pantallas
+// angostas.
+.navbar-brand-container {
+  min-width: 0;
+}
+
+.navbar-title {
+  min-width: 0;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-title {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  .navbar-logo {
+    height: 24px;
+    width: 24px;
+  }
+
+  .navbar-toggler {
+    flex-shrink: 0;
+    padding: 0.25rem 0.45rem;
+    border: none;
+    box-shadow: none !important;
+  }
+
+  .navbar-nav {
+    gap: 0.2rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.6rem 0.9rem !important;
+    border-radius: 0.55rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding-top: 0.5rem;
+  }
+
+  .navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.4rem;
+  }
+
+  .navbar .dropdown-menu {
+    margin-top: 0.2rem;
+  }
+}
+
 .navbar-title {
   font-weight: 700;
   font-size: 1.02rem;
