@@ -2,35 +2,84 @@
 title: "Documentación de uso de herramientas de IA"
 ---
 
-::: {.todo}
-El uso de LLMs (ChatGPT, Claude, Copilot, Gemini, etc.) **no está prohibido**, pero debe
-documentarse de forma explícita y honesta. Para cada uso, registrar herramienta, tarea, prompts
-empleados y qué se hizo con la salida obtenida (revisión, corrección, validación). No se acepta
-copiar y pegar una respuesta de un LLM sin revisión crítica.
+El equipo utilizó Claude (Anthropic) durante el desarrollo de esta entrega. A continuación se
+documenta cada uso, conforme a lo solicitado en las instrucciones de la entrega.
 
-Si el equipo **no** utilizó ninguna herramienta de IA en esta entrega, borrar la tabla de abajo y
-dejar únicamente la frase: *"No se utilizaron herramientas de IA en esta entrega."*
-:::
+## 1. Herramienta utilizada
 
-## Registro de usos
+Claude (Anthropic), modelo Sonnet, accedido vía la interfaz de conversación web.
 
-::: {.cell}
-<table class="riesgos">
-<thead>
-<tr>
-<th>Herramienta</th>
-<th>Tarea</th>
-<th>Prompt(s) empleado(s)</th>
-<th>Qué se hizo con la salida</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Claude Code (Claude Sonnet 5, Anthropic)</td>
-<td>Generar el andamiaje inicial del repositorio y del sitio Quarto: estructura de carpetas, páginas <code>.qmd</code> por entregable, configuración de navegación y estilos visuales.</td>
-<td>Resumen fiel: se pidió construir el repositorio con la estructura de carpetas y archivos exigida por el instructivo de la entrega E0 (<code>entregas/E0_comprension_negocio/</code> con sus seis páginas, <code>_quarto.yml</code> con <code>output-dir: docs</code>, y <code>README.md</code>), usando solo plantillas con marcadores de posición, sin inventar contenido de negocio; después se pidió documentar aquí el prompt usado de forma resumida.</td>
-<td>Se revisó cada archivo generado, se verificó que no incluyera información de negocio inventada (solo placeholders entre corchetes), se ajustó el diseño visual y se corrió <code>quarto render</code> para confirmar que el sitio compila sin errores. El equipo debe completar el contenido real (bitácora, Canvas, preguntas, criterio de éxito, riesgos) antes de la entrega.</td>
-</tr>
-</tbody>
-</table>
-:::
+## 2. Tareas para las cuales se usó
+
+### a) Mejora de redacción y organización de citas
+
+**Tarea:** el equipo leía las fuentes (estudios académicos, notas periodísticas, documentos
+institucionales) y redactaba borradores de párrafos para la bitácora y el Canvas a partir de esa
+lectura. Esos borradores, con frecuencia mal redactados o con errores de dedo, se le pasaban a Claude
+para que mejorara la redacción, les diera un tono más natural, y numerara y organizara las referencias
+de forma consistente a lo largo del documento.
+
+**Prompts empleados:** el equipo pegaba el párrafo tal como lo había escrito después de leer la fuente
+correspondiente, y pedía que se corrigiera la redacción, se verificara que las citas coincidieran con las
+fuentes correctas, y se numeraran de forma consecutiva y sin duplicados.
+
+Explícitamente:
+
+> Lee el siguiente texto y entrega una versión que tenga las mismas ideas sin quitar nada ni agregar
+> nada no verificado y dame lo siguiente.
+> 1. un párrafo bien estructurado de forma formal y narrativa que tenga las fuentes de la siguiente
+>    forma [1] [2] [3]
+> 2. Las citas textuales de las fuentes que defienden la idea de [documento de fuentes y citas textuales]
+> 3. Las referencias [1] [2] [3] en APA
+
+**Qué se hizo con la salida obtenida:** el equipo revisó cada párrafo reescrito comparándolo con el
+contenido original que había leído, para confirmar que la mejora de redacción no alterara el sentido de
+lo que querían decir, y corrigió a Claude cuando la numeración de referencias quedaba inconsistente
+entre secciones.
+
+### b) Generación de preguntas posibles para la entrevista con el stakeholder
+
+**Tarea:** apoyar la generación de posibles preguntas de investigación y de entrevista para plantearle al
+stakeholder simulado, a partir de los temas que el equipo quería cubrir (metodología de clasificación,
+indicadores de violencia, limitaciones del análisis, etc.).
+
+**Qué se hizo con la salida obtenida:** el equipo seleccionó, descartó y reformuló las preguntas
+propuestas según lo que consideró más relevante para el proyecto, y decidió cuáles incorporar, las
+cuales pasaron por el procedimiento de revisión de redacción descrito en el inciso (a).
+
+### c) Búsqueda de otras fuentes
+
+**Tarea:** cuando el equipo quería complementar una idea que ya tenía en mente para las respuestas del
+stakeholder simulado, se le pedía a Claude que buscara otras fuentes, además de las que el equipo ya
+había leído, que dijeran algo similar o que respaldaran/complementaran esa idea, para poder redactar
+la respuesta con más de una fuente y de forma más completa.
+
+**Prompts empleados (resumen fiel):** el equipo describía la idea que quería reforzar y pedía
+explícitamente que se buscara una fuente real que dijera algo parecido, entregando siempre el link de la
+fuente y un fragmento textual exacto que sustentara la idea, para poder verificarlo antes de usarlo.
+
+**Qué se hizo con la salida obtenida:** el equipo abría los links entregados y comparaba el fragmento
+textual citado contra el documento original, para confirmar que la idea era la misma que Claude
+reportaba, antes de incorporarlo a la bitácora.
+
+### d) Generación del andamiaje inicial del sitio Quarto
+
+**Tarea:** generar la estructura inicial del repositorio y del sitio Quarto de esta entrega — carpetas,
+páginas `.qmd` por entregable, configuración de navegación (`_quarto.yml`) y estilos visuales
+(`styles.css`) — a partir del instructivo de la entrega E0, y posteriormente trasladar a esas páginas el
+contenido íntegro de los documentos descritos en los incisos (a)–(c), ya redactados y validados por el
+equipo, sin resumir ni omitir contenido.
+
+**Qué se hizo con la salida obtenida:** se revisó que la estructura generada correspondiera exactamente
+a la exigida por el instructivo, que ningún archivo incluyera información de negocio inventada, y que el
+sitio compilara sin errores (`quarto render`) antes y después de incorporar el contenido final.
+
+## 3. Revisión y validación por el equipo
+
+El punto de partida de cada párrafo fue siempre la lectura directa de las fuentes por parte del equipo,
+no una generación libre de Claude. El equipo leía el estudio, la nota periodística o el documento
+institucional correspondiente, redactaba un borrador propio a partir de esa lectura, y solo entonces
+pedía apoyo para mejorar la redacción y organizar las citas. Ninguna afirmación específica (cifras,
+nombres de estudios, atribuciones) se incorporó sin que el equipo pudiera verificarla contra la fuente
+original. Las decisiones de alcance del proyecto, qué preguntas de investigación priorizar, y cómo
+definir el "éxito" del proyecto fueron tomadas por el equipo.

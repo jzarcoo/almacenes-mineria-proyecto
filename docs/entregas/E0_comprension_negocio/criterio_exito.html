@@ -354,27 +354,36 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="todo">
-<p>Debe ser un enunciado <strong>verificable y medible</strong>, expresado en el lenguaje del stakeholder — no en métricas de modelo. Ejemplo: <em>“reducir en 20 % el tiempo de atención de reportes”</em> en lugar de <em>“lograr un F1-score de 0.85”</em>. Debe indicarse también cómo ese criterio se relacionará, más adelante, con una métrica técnica.</p>
-</div>
 <section id="enunciado-del-criterio-de-éxito" class="level2">
 <h2 class="anchored" data-anchor-id="enunciado-del-criterio-de-éxito">Enunciado del criterio de éxito</h2>
 <blockquote class="blockquote">
-<p>[Enunciado verificable y medible, en el lenguaje de negocio del stakeholder.]</p>
+<p>Un tablero reproducible del contenido misógino en la música que se consume en México hasta la actualidad, con su distribución geográfica, por género musical y en el tiempo, que permita saber si existe correlación con la violencia de género real y que quede como mecanismo de monitoreo continuo, no como un análisis de una sola vez, para poder medir si las recomendaciones y esfuerzos existentes han tenido efecto. — Definición de éxito dada por el stakeholder (A.) durante la reunión (ver <a href="../../entregas/E0_comprension_negocio/bitacora.html">bitácora</a>).</p>
 </blockquote>
+<p>En términos operativos, el Canvas desglosa esta definición en dos KPI cuantificables e independientes:</p>
+<ul>
+<li><strong>Éxito del componente descriptivo:</strong> contar con un índice de misoginia musical calculado de forma reproducible, desagregado por entidad, género musical, tipo de violencia y periodo temporal.</li>
+<li><strong>Éxito del componente de correlación:</strong> haber ejecutado un análisis estadístico riguroso entre ese índice y los delitos de violencia de género del SESNSP, reportando el coeficiente y su significancia estadística.</li>
+</ul>
+<p>El resultado del componente de correlación, sea cual sea (asociación, ausencia de asociación o asociación débil), no condiciona el éxito del componente descriptivo: ambos entregables responden de forma independiente al vacío identificado por el stakeholder.</p>
 </section>
 <section id="cómo-se-verificará" class="level2">
 <h2 class="anchored" data-anchor-id="cómo-se-verificará">Cómo se verificará</h2>
 <ul>
-<li><strong>Fuente de datos / evidencia:</strong> [de dónde saldrá la evidencia para verificar el criterio]</li>
-<li><strong>Línea base actual:</strong> [valor o situación actual antes de la intervención, si se conoce]</li>
-<li><strong>Meta / umbral objetivo:</strong> [valor o condición que definiría el éxito]</li>
-<li><strong>Horizonte de tiempo:</strong> [plazo en el que se espera observar el resultado]</li>
+<li><strong>Fuente de datos / evidencia:</strong> consumo musical en México a lo largo de 10 años (charts/streaming vía Kworb), cifras del SESNSP desagregadas por tipo de delito de género, ENDIREH 2021 (INEGI), y el mapa de feminicidios de María Salguero como contraste frente al subregistro oficial.</li>
+<li><strong>Línea base actual:</strong> no existe hoy un índice de misoginia musical aplicado de forma sistemática al consumo real en México, ni cruzado con los indicadores oficiales de violencia de género; el diagnóstico descriptivo de este proyecto sería la primera línea base.</li>
+<li><strong>Meta / umbral objetivo:</strong> un índice reproducible y desagregable (por entidad, género musical, tipo de violencia y periodo) para el componente descriptivo, y un coeficiente de correlación con su significancia estadística correctamente reportado para el componente de correlación.</li>
+<li><strong>Ventana temporal de medición:</strong> mensual/anual, analizando una ventana de 10 años (ajustada a la intersección real de disponibilidad entre los datos musicales, desde 2014, y los del SESNSP, desde 2015).</li>
+<li><strong>Horizonte del proyecto:</strong> concluido dentro del año 2026, conforme al calendario de entregas del curso, con miras a integrarse al reporte de la asamblea de 2027 que mencionó el stakeholder.</li>
 </ul>
 </section>
 <section id="vínculo-con-una-métrica-técnica-futura" class="level2">
 <h2 class="anchored" data-anchor-id="vínculo-con-una-métrica-técnica-futura">Vínculo con una métrica técnica futura</h2>
-<p>[Explicar cómo el criterio de negocio se traducirá, en fases posteriores del proyecto, en una métrica técnica de evaluación del modelo (p.&nbsp;ej. precisión, recall, error absoluto medio, etc.), y por qué esa métrica es un buen proxy del criterio de negocio.]</p>
+<p>De acuerdo con la sección “5. Éxito Técnico” del <a href="../../entregas/E0_comprension_negocio/canvas.html">Business Understanding Canvas</a>:</p>
+<ul>
+<li>Para el <strong>componente descriptivo</strong>, el clasificador de misoginia se validará contra una muestra etiquetada manualmente, reportando <strong>precisión y recall explícitamente por periodo</strong>, para detectar si el desempeño se degrada en años más recientes por cambios en el lenguaje musical.</li>
+<li>Para el <strong>componente de correlación</strong>, el análisis se considerará técnicamente exitoso si se ejecuta correctamente y se reporta con rigor estadístico (<strong>coeficiente, p-value, tamaño de muestra</strong>), sin importar si el resultado es significativo o no: no existe un umbral mínimo de correlación que deba alcanzarse, ya que el criterio de negocio del stakeholder valora el diagnóstico reproducible en sí mismo, independientemente del resultado de la correlación.</li>
+<li>Todos los resultados deberán ser desagregables por entidad, género musical, tipo de violencia y periodo, sin pérdida de trazabilidad respecto a la fuente de cada dato.</li>
+</ul>
 
 
 </section>

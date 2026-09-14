@@ -353,15 +353,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="todo">
-<p>Mínimo 2 riesgos <strong>reales y específicos</strong> al proyecto (no genéricos tipo “que falle el internet”): por ejemplo, disponibilidad o calidad incierta de los datos, sesgos en la fuente, ventana temporal insuficiente, o que el criterio de éxito del stakeholder no sea alcanzable con los datos disponibles. Cada riesgo debe incluir una mitigación propuesta.</p>
-</div>
 <section id="supuestos" class="level2">
 <h2 class="anchored" data-anchor-id="supuestos">Supuestos</h2>
 <ul>
-<li>[Supuesto 1, p.&nbsp;ej. sobre disponibilidad futura de datos]</li>
-<li>[Supuesto 2]</li>
-<li>[Supuesto 3]</li>
+<li>Que el consumo reflejado en plataformas de streaming/charts durante la última década es representativo del consumo real de música en México en ese periodo.</li>
+<li>Que las cifras del SESNSP, aunque limitadas a lo denunciado, son útiles como aproximación de tendencia si se triangulan con el mapa de feminicidios.</li>
+<li>Que un clasificador basado en MiSonGyny puede adaptarse razonablemente a géneros regionales mexicanos y a la evolución del lenguaje musical a lo largo de 10 años, mediante validación manual periódica.</li>
 </ul>
 </section>
 <section id="riesgos" class="level2">
@@ -390,13 +387,13 @@ Mitigación propuesta
 1
 </td>
 <td>
-[Descripción del riesgo]
+Acceso limitado a letras de canciones a escala por restricciones de copyright.
 </td>
 <td>
-[Por qué aplica concretamente a este problema/datos/stakeholder]
+Reunir letras de canciones a escala tiene restricciones de copyright que no existen de la misma forma al analizar televisión o prensa, lo que puede limitar el tamaño y la representatividad del corpus musical construido.
 </td>
 <td>
-[Acción o plan para mitigarlo]
+Documentar explícitamente el fin educativo/de investigación del corpus, como precedente ya usado por el proyecto MiSonGyny.
 </td>
 </tr>
 <tr>
@@ -404,13 +401,13 @@ Mitigación propuesta
 2
 </td>
 <td>
-[Descripción del riesgo]
+Subregistro en las cifras oficiales de violencia de género (SESNSP).
 </td>
 <td>
-[Por qué aplica concretamente a este problema/datos/stakeholder]
+Las cifras del SESNSP miden solo lo denunciado, y hay evidencia de subregistro considerable frente a conteos alternativos como el mapa de feminicidios construido con notas de prensa, lo que podría sesgar el análisis de correlación si se usan como única fuente.
 </td>
 <td>
-[Acción o plan para mitigarlo]
+Contrastar el SESNSP con el mapa de feminicidios de María Salguero para dimensionar el subregistro.
 </td>
 </tr>
 <tr>
@@ -418,17 +415,34 @@ Mitigación propuesta
 3
 </td>
 <td>
-[Riesgo adicional, opcional]
+Cambios en el lenguaje musical y en el slang regional a lo largo de una década.
 </td>
 <td>
-[Justificación]
+La ventana de análisis es de 10 años, y en ese periodo han surgido subgéneros que ni siquiera existían al inicio (por ejemplo, los corridos tumbados), lo que puede degradar el desempeño de un clasificador entrenado sobre lenguaje más antiguo.
 </td>
 <td>
-[Mitigación]
+Validación manual estratificada por periodo, no solo con una muestra tomada al final de la ventana.
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+Riesgo de confundir correlación con causalidad.
+</td>
+<td>
+El proyecto busca explícitamente una asociación entre contenido musical e indicadores de violencia de género; sin un diseño causal, cualquier correlación encontrada podría interpretarse erróneamente como causa-efecto, sobre todo considerando que la literatura indica que géneros como los corridos tumbados pueden ser manifestación cultural de condiciones ya existentes, no su causa.
+</td>
+<td>
+El reporte final debe declarar explícitamente que el diseño es asociativo, no causal, en ambos componentes del proyecto (descriptivo y de correlación).
 </td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="todo">
+<p>Los cuatro riesgos y los tres supuestos de esta página provienen íntegramente de la sección “3. Evaluación de la Situación” del <a href="../../entregas/E0_comprension_negocio/canvas.html">Business Understanding Canvas</a>, documentado con el stakeholder simulado. No se han resumido ni reducido respecto al documento original.</p>
 </div>
 
 

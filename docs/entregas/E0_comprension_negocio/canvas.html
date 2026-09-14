@@ -320,8 +320,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
+   
+  <ul>
+  <li><a href="#guía-de-uso-y-buenas-prácticas" id="toc-guía-de-uso-y-buenas-prácticas" class="nav-link active" data-scroll-target="#guía-de-uso-y-buenas-prácticas">Guía de Uso y Buenas Prácticas</a></li>
+  <li><a href="#referencias-del-canvas" id="toc-referencias-del-canvas" class="nav-link" data-scroll-target="#referencias-del-canvas">Referencias del Canvas</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -330,6 +337,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Business Understanding Canvas</h1>
+<p class="subtitle lead">CRISP-DM — Misoginia en la Música Consumida en México y su Relación con la Violencia de Género</p>
 </div>
 
 
@@ -346,86 +354,192 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="todo">
-<p><strong>Debe leerse de forma autónoma, en una sola pantalla/página</strong>, sin necesidad del resto del sitio. Sintetiza: objetivo de negocio, objetivo de minería de datos, stakeholders y beneficiarios, situación actual / dolor del problema, restricciones y recursos disponibles, criterio de éxito y riesgos principales.</p>
-</div>
 <div class="canvas-grid">
-<section id="objetivo-de-negocio" class="level4 canvas-block canvas-span-2">
-<h4 class="anchored" data-anchor-id="objetivo-de-negocio">Objetivo de negocio</h4>
-<p>
-[Enunciado del objetivo en el lenguaje del dominio del stakeholder, no en el de minería de datos.]
-</p>
-</section>
-<section id="objetivo-de-minería-de-datos" class="level4 canvas-block canvas-span-2">
-<h4 class="anchored" data-anchor-id="objetivo-de-minería-de-datos">Objetivo de minería de datos</h4>
-<p>
-[Traducción técnica del objetivo: predecir, segmentar, detectar anomalías, clasificar, etc.]
-</p>
-</section>
-<section id="stakeholders" class="level4 canvas-block">
-<h4 class="anchored" data-anchor-id="stakeholders">Stakeholders</h4>
+<section id="objetivos-de-negocio" class="level4 canvas-block canvas-block--blue canvas-span-2">
+<h4 class="anchored" data-anchor-id="objetivos-de-negocio">1. Objetivos de Negocio</h4>
 <ul>
 <li>
-[Stakeholder principal]
+<strong>Problema o dolor actual que se busca resolver:</strong> existe un vacío documentado en el monitoreo de medios de comunicación en México respecto a la violencia de género: mientras que la televisión, la publicidad y las telenovelas ya han sido analizadas de forma cuantitativa y sistemática [1], la industria musical, a pesar de haber sido señalada como una de las principales fuentes de contenido misógino en el país, nunca ha sido sometida a ese mismo rigor de análisis [1][2]. Ya existen herramientas para medir ese contenido, como el lexicón MiSonGyny [3], pero nadie las ha aplicado de forma sistemática a lo que realmente se consume en México, ni las ha cruzado con los indicadores oficiales de violencia de género.
 </li>
 <li>
-[Otros actores relevantes]
+<strong>Segmento/proceso impactado:</strong> el ámbito de monitoreo de medios y violencia de género en México, específicamente la industria musical y su consumo actual (enfocado a streaming) frente a los indicadores oficiales de violencia de género.
+</li>
+<li>
+<strong>Acción o estrategia propuesta:</strong> el proyecto tiene dos entregables independientes:
+</li>
+<li>
+Un diagnóstico descriptivo: qué tan misógino es el contenido musical que se consume en México, desagregado por tipo de violencia, entidad, género musical y tiempo.
+</li>
+<li>
+Un análisis de correlación entre ese índice y los indicadores oficiales de violencia de género, reportando el resultado que sea (asociación, ausencia de asociación, o asociación débil), siempre que esté correctamente documentado y metodológicamente sólido.
+</li>
+<li>
+<strong>Horizonte temporal:</strong> el proyecto debe quedar concluido dentro del año 2026, conforme al calendario de entregas del curso.
 </li>
 </ul>
 </section>
-<section id="beneficiarios-finales" class="level4 canvas-block">
-<h4 class="anchored" data-anchor-id="beneficiarios-finales">Beneficiarios finales</h4>
-<ul>
-<li>
-[Quién se beneficia del resultado]
-</li>
-</ul>
-</section>
-<section id="situación-actual-dolor-del-problema" class="level4 canvas-block canvas-span-2">
-<h4 class="anchored" data-anchor-id="situación-actual-dolor-del-problema">Situación actual / dolor del problema</h4>
+<section id="criterio-de-éxito-negocio" class="level4 canvas-block canvas-block--green canvas-span-2">
+<h4 class="anchored" data-anchor-id="criterio-de-éxito-negocio">2. Criterio de Éxito (Negocio)</h4>
 <p>
-[Descripción breve de cómo se vive hoy el problema, sin apoyo de datos.]
+<strong>KPI cuantificable:</strong>
 </p>
-</section>
-<section id="restricciones" class="level4 canvas-block">
-<h4 class="anchored" data-anchor-id="restricciones">Restricciones</h4>
 <ul>
 <li>
-[Tiempo, presupuesto, datos, regulación, capacidad técnica]
-</li>
-</ul>
-</section>
-<section id="recursos-disponibles" class="level4 canvas-block">
-<h4 class="anchored" data-anchor-id="recursos-disponibles">Recursos disponibles</h4>
-<ul>
-<li>
-[Datos, herramientas, personas, infraestructura]
-</li>
-</ul>
-</section>
-<section id="criterio-de-éxito" class="level4 canvas-block canvas-span-2">
-<h4 class="anchored" data-anchor-id="criterio-de-éxito">Criterio de éxito</h4>
-<p>
-[Enunciado verificable y medible en términos de negocio. Ver detalle en <a href="../../entregas/E0_comprension_negocio/criterio_exito.html">criterio_exito.qmd</a>.]
-</p>
-</section>
-<section id="riesgos-principales" class="level4 canvas-block canvas-span-2">
-<h4 class="anchored" data-anchor-id="riesgos-principales">Riesgos principales</h4>
-<ul>
-<li>
-[Riesgo 1, resumido]
+<strong>Éxito del componente descriptivo:</strong> contar con un índice de misoginia musical calculado de forma reproducible, desagregado por entidad, género musical, tipo de violencia y periodo temporal.
 </li>
 <li>
-[Riesgo 2, resumido]
+<strong>Éxito del componente de correlación:</strong> haber ejecutado un análisis estadístico riguroso entre ese índice y los delitos de violencia de género del SESNSP, reportando el coeficiente y su significancia estadística.
 </li>
 </ul>
 <p>
-Detalle completo en <a href="../../entregas/E0_comprension_negocio/riesgos_supuestos.html">riesgos_supuestos.qmd</a>.
+<strong>Ventana temporal de medición:</strong> mensual/anual, analizando una ventana de 10 años.
 </p>
+</section>
+<section id="evaluación-de-la-situación" class="level4 canvas-block canvas-block--amber canvas-span-4">
+<h4 class="anchored" data-anchor-id="evaluación-de-la-situación">3. Evaluación de la Situación</h4>
+<div class="canvas-inner-grid">
+<div>
+<p>
+<strong>Recursos:</strong>
+</p>
+<p>
+Fuentes de datos: consumo musical en México a lo largo de 10 años (charts/streaming vía Kworb), SESNSP (delitos de violencia de género desagregados, series mensuales), ENDIREH 2021 (INEGI, corte transversal), mapa de feminicidios de María Salguero como fuente de contraste frente al subregistro oficial, lexicón MiSonGyny y corpus de refuerzo para el clasificador (AMI, EXIST).
+</p>
+<p>
+Equipo: 4 integrantes del equipo del curso, con roles de datos (extracción y limpieza de las fuentes anteriores), clasificación/NLP (adaptación y validación del clasificador de misoginia), documentación (control de fuentes, bitácora, Canvas), y traducción técnica (encargado de convertir los hallazgos y necesidades reportadas en la literatura académica de género en requerimientos concretos y accionables para el resto del equipo).
+</p>
+<p>
+Información documentada: el cuerpo de investigación académica ya existente sobre música y violencia de género (Vega Montiel, 2011 [1]; el debate ante la ONU de 2019 [2]; Arévalo et al., 2018, sobre reguetón [3]; Alcántara, MiSonGyny [4]), que sirve como base conceptual y metodológica del proyecto, no como algo que el equipo tenga que generar desde cero.
+</p>
+</div>
+<div>
+<p>
+<strong>Requisitos:</strong>
+</p>
+<p>
+Entrega dentro del calendario del curso, durante 2026.
+</p>
+<p>
+Disponibilidad real de al menos 10 años de datos tanto del lado musical (Kworb tiene histórico diario desde 2014, es decir, cerca de 11 años) como del lado de violencia de género (SESNSP tiene series mensuales desde 2015); la ventana final se ajustará a la intersección de ambas.
+</p>
+<p>
+Restricciones de licenciamiento sobre las letras de canciones a reunir a escala.
+</p>
+<p>
+Regla operativa: no preseleccionar géneros musicales por reputación; el corpus debe incluir todo lo que efectivamente se consume en México durante la ventana de 10 años.
+</p>
+</div>
+<div>
+<p>
+<strong>Supuestos:</strong>
+</p>
+<ul>
+<li>
+Que el consumo reflejado en plataformas de streaming/charts durante la última década es representativo del consumo real de música en México en ese periodo.
+</li>
+<li>
+Que las cifras del SESNSP, aunque limitadas a lo denunciado, son útiles como aproximación de tendencia si se triangulan con el mapa de feminicidios.
+</li>
+<li>
+Que un clasificador basado en MiSonGyny puede adaptarse razonablemente a géneros regionales mexicanos y a la evolución del lenguaje musical a lo largo de 10 años, mediante validación manual periódica.
+</li>
+</ul>
+</div>
+<div>
+<p>
+<strong>Riesgos:</strong>
+</p>
+<ul>
+<li>
+Acceso limitado a letras a escala por restricciones de copyright. <em>Mitigación:</em> documentar explícitamente el fin educativo/de investigación del corpus, como precedente ya usado por MiSonGyny.
+</li>
+<li>
+Subregistro en las cifras oficiales de violencia de género. <em>Mitigación:</em> contrastar el SESNSP con el mapa de feminicidios.
+</li>
+<li>
+Cambios en el lenguaje musical y en el slang regional a lo largo de una década (corridos tumbados, por ejemplo, es un subgénero que ni existía al inicio de la ventana). <em>Mitigación:</em> validación manual estratificada por periodo, no solo una muestra al final.
+</li>
+<li>
+Riesgo de confundir correlación con causalidad. <em>Mitigación:</em> el reporte final debe declarar explícitamente que el diseño es asociativo, no causal, en ambos componentes del proyecto.
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="objetivos-de-minería-de-datos" class="level4 canvas-block canvas-block--purple canvas-span-2">
+<h4 class="anchored" data-anchor-id="objetivos-de-minería-de-datos">4. Objetivos de Minería de Datos</h4>
+<ul>
+<li>
+<strong>Tipo de problema:</strong> clasificación de texto (detección de misoginia en letras) combinada con análisis de correlación/regresión de series de tiempo a 10 años entre variables musicales y de violencia de género, desagregadas geográficamente.
+</li>
+<li>
+<strong>Entregable técnico:</strong>
+<ol>
+<li>
+Un índice de misoginia musical por canción, agregable por entidad, género musical, tipo de violencia y periodo (mensual/anual) a lo largo de la ventana de 10 años.
+</li>
+<li>
+Un análisis de correlación entre ese índice y los indicadores del SESNSP, con su coeficiente y significancia estadística reportados independientemente del resultado.
+</li>
+</ol>
+</li>
+<li>
+<strong>Filtros/transformaciones clave:</strong> desagregación geográfica y temporal del corpus musical; limpieza y normalización de letras (incluyendo variantes regionales y su evolución en el tiempo); alineación temporal entre la periodicidad del corpus musical (diario/mensual) y la del SESNSP (mensual).
+</li>
+</ul>
+</section>
+<section id="éxito-técnico" class="level4 canvas-block canvas-block--red canvas-span-2">
+<h4 class="anchored" data-anchor-id="éxito-técnico">5. Éxito Técnico</h4>
+<ul>
+<li>
+Para el componente descriptivo: clasificador de misoginia validado contra una muestra etiquetada manualmente, con precisión y recall reportados explícitamente por periodo (para detectar si el desempeño se degrada en años más recientes por cambios de lenguaje).
+</li>
+<li>
+Para el componente de correlación: el análisis se considera técnicamente exitoso si se ejecuta correctamente y se reporta con rigor estadístico (coeficiente, p-value, tamaño de muestra), sin importar si el resultado es significativo o no — no hay un umbral mínimo de correlación que deba alcanzarse.
+</li>
+<li>
+Resultados desagregables por entidad, género musical, tipo de violencia y periodo, sin pérdida de trazabilidad respecto a la fuente de cada dato.
+</li>
+</ul>
+</section>
+<section id="plan-del-proyecto" class="level4 canvas-block canvas-block--slate canvas-span-4">
+<h4 class="anchored" data-anchor-id="plan-del-proyecto">6. Plan del Proyecto</h4>
+<ol>
+<li>
+<strong>Fase 1 (Comprensión y Exploración):</strong> extracción del corpus musical (10 años vía Kworb) y de los indicadores de violencia de género (SESNSP, mapa de Salguero, ENDIREH); limpieza; análisis exploratorio de ambas fuentes, incluyendo su cobertura temporal real.
+</li>
+<li>
+<strong>Fase 2 (Modelado y Validación Técnica):</strong> adaptación y validación del clasificador de misoginia (con validación estratificada por periodo); cálculo del índice a lo largo de la ventana de 10 años; ejecución del análisis de correlación.
+</li>
+<li>
+<strong>Fase 3 (Revisión con stakeholders):</strong> presentación de resultados preliminares, tanto del diagnóstico descriptivo como de la correlación, sea cual sea su resultado, para retroalimentación.
+</li>
+<li>
+<strong>Fase 4 (Evaluación final):</strong> entrega del diagnóstico completo, documentación explícita de los resultados de correlación (incluyendo si resultó débil o nula), y propuesta de un mecanismo para actualizar el índice periódicamente más allá de 2026.
+</li>
+</ol>
 </section>
 </div>
+<section id="guía-de-uso-y-buenas-prácticas" class="level2">
+<h2 class="anchored" data-anchor-id="guía-de-uso-y-buenas-prácticas">Guía de Uso y Buenas Prácticas</h2>
+<p>Este canvas sintetiza la primera fase del estándar <strong>CRISP-DM</strong> (<em>Cross-Industry Standard Process for Data Mining</em>). Asegura la alineación entre los objetivos estratégicos de la organización y los entregables técnicos de ciencia de datos:</p>
+<ul>
+<li><strong>Alineación Negocio-Técnica:</strong> cada objetivo técnico (Sección 4) debe responder directamente a la meta de negocio (Sección 1).</li>
+<li><strong>Métricas de Doble Vía:</strong> valida que el éxito técnico (Sección 5) sea una condición previa pero medible hacia el impacto comercial real (Sección 2).</li>
+<li><strong>Factibilidad Operativa:</strong> antes de modelar, valida exhaustivamente los requisitos de stock, gobernanza de datos y tiempos de despliegue en la Sección 3.</li>
+</ul>
+</section>
+<section id="referencias-del-canvas" class="level2">
+<h2 class="anchored" data-anchor-id="referencias-del-canvas">Referencias del Canvas</h2>
+<ol type="1">
+<li>Vega Montiel, A. (2011). <em>La responsabilidad de los medios de comunicación en la erradicación de la violencia contra las mujeres y las niñas</em>, UNAM/ONU Mujeres. <a href="https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf" class="uri">https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf</a></li>
+<li>Observatorioviolencia.org (2019). <em>La violencia contra las mujeres en los medios de comunicación, a debate en la ONU</em>. <a href="https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/" class="uri">https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/</a></li>
+<li>Arévalo, Chellew, Figueroa-Cofré, Arancibia-Villablanca y Schmied (2018). <em>Ni pobre diabla, ni candy: Violencia de género del reggaetón</em>. <a href="https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797" class="uri">https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797</a></li>
+<li>Gaceta Politécnica, IPN — entrevista a Tania Alcántara (MiSonGyny). <a href="https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562" class="uri">https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562</a></li>
+</ol>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

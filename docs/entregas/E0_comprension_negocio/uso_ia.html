@@ -325,7 +325,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#registro-de-usos" id="toc-registro-de-usos" class="nav-link active" data-scroll-target="#registro-de-usos">Registro de usos</a></li>
+  <li><a href="#herramienta-utilizada" id="toc-herramienta-utilizada" class="nav-link active" data-scroll-target="#herramienta-utilizada">1. Herramienta utilizada</a></li>
+  <li><a href="#tareas-para-las-cuales-se-usó" id="toc-tareas-para-las-cuales-se-usó" class="nav-link" data-scroll-target="#tareas-para-las-cuales-se-usó">2. Tareas para las cuales se usó</a>
+  <ul class="collapse">
+  <li><a href="#a-mejora-de-redacción-y-organización-de-citas" id="toc-a-mejora-de-redacción-y-organización-de-citas" class="nav-link" data-scroll-target="#a-mejora-de-redacción-y-organización-de-citas">a) Mejora de redacción y organización de citas</a></li>
+  <li><a href="#b-generación-de-preguntas-posibles-para-la-entrevista-con-el-stakeholder" id="toc-b-generación-de-preguntas-posibles-para-la-entrevista-con-el-stakeholder" class="nav-link" data-scroll-target="#b-generación-de-preguntas-posibles-para-la-entrevista-con-el-stakeholder">b) Generación de preguntas posibles para la entrevista con el stakeholder</a></li>
+  <li><a href="#c-búsqueda-de-otras-fuentes" id="toc-c-búsqueda-de-otras-fuentes" class="nav-link" data-scroll-target="#c-búsqueda-de-otras-fuentes">c) Búsqueda de otras fuentes</a></li>
+  <li><a href="#d-generación-del-andamiaje-inicial-del-sitio-quarto" id="toc-d-generación-del-andamiaje-inicial-del-sitio-quarto" class="nav-link" data-scroll-target="#d-generación-del-andamiaje-inicial-del-sitio-quarto">d) Generación del andamiaje inicial del sitio Quarto</a></li>
+  </ul></li>
+  <li><a href="#revisión-y-validación-por-el-equipo" id="toc-revisión-y-validación-por-el-equipo" class="nav-link" data-scroll-target="#revisión-y-validación-por-el-equipo">3. Revisión y validación por el equipo</a></li>
   </ul>
 </nav>
     </div>
@@ -352,48 +360,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="todo">
-<p>El uso de LLMs (ChatGPT, Claude, Copilot, Gemini, etc.) <strong>no está prohibido</strong>, pero debe documentarse de forma explícita y honesta. Para cada uso, registrar herramienta, tarea, prompts empleados y qué se hizo con la salida obtenida (revisión, corrección, validación). No se acepta copiar y pegar una respuesta de un LLM sin revisión crítica.</p>
-<p>Si el equipo <strong>no</strong> utilizó ninguna herramienta de IA en esta entrega, borrar la tabla de abajo y dejar únicamente la frase: <em>“No se utilizaron herramientas de IA en esta entrega.”</em></p>
-</div>
-<section id="registro-de-usos" class="level2">
-<h2 class="anchored" data-anchor-id="registro-de-usos">Registro de usos</h2>
-<div class="cell">
-<table class="riesgos">
-<thead>
-<tr>
-<th>
-Herramienta
-</th>
-<th>
-Tarea
-</th>
-<th>
-Prompt(s) empleado(s)
-</th>
-<th>
-Qué se hizo con la salida
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-Claude Code (Claude Sonnet 5, Anthropic)
-</td>
-<td>
-Generar el andamiaje inicial del repositorio y del sitio Quarto: estructura de carpetas, páginas <code>.qmd</code> por entregable, configuración de navegación y estilos visuales.
-</td>
-<td>
-Resumen fiel: se pidió construir el repositorio con la estructura de carpetas y archivos exigida por el instructivo de la entrega E0 (<code>entregas/E0_comprension_negocio/</code> con sus seis páginas, <code>_quarto.yml</code> con <code>output-dir: docs</code>, y <code>README.md</code>), usando solo plantillas con marcadores de posición, sin inventar contenido de negocio; después se pidió documentar aquí el prompt usado de forma resumida.
-</td>
-<td>
-Se revisó cada archivo generado, se verificó que no incluyera información de negocio inventada (solo placeholders entre corchetes), se ajustó el diseño visual y se corrió <code>quarto render</code> para confirmar que el sitio compila sin errores. El equipo debe completar el contenido real (bitácora, Canvas, preguntas, criterio de éxito, riesgos) antes de la entrega.
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+<p>El equipo utilizó Claude (Anthropic) durante el desarrollo de esta entrega. A continuación se documenta cada uso, conforme a lo solicitado en las instrucciones de la entrega.</p>
+<section id="herramienta-utilizada" class="level2">
+<h2 class="anchored" data-anchor-id="herramienta-utilizada">1. Herramienta utilizada</h2>
+<p>Claude (Anthropic), modelo Sonnet, accedido vía la interfaz de conversación web.</p>
+</section>
+<section id="tareas-para-las-cuales-se-usó" class="level2">
+<h2 class="anchored" data-anchor-id="tareas-para-las-cuales-se-usó">2. Tareas para las cuales se usó</h2>
+<section id="a-mejora-de-redacción-y-organización-de-citas" class="level3">
+<h3 class="anchored" data-anchor-id="a-mejora-de-redacción-y-organización-de-citas">a) Mejora de redacción y organización de citas</h3>
+<p><strong>Tarea:</strong> el equipo leía las fuentes (estudios académicos, notas periodísticas, documentos institucionales) y redactaba borradores de párrafos para la bitácora y el Canvas a partir de esa lectura. Esos borradores, con frecuencia mal redactados o con errores de dedo, se le pasaban a Claude para que mejorara la redacción, les diera un tono más natural, y numerara y organizara las referencias de forma consistente a lo largo del documento.</p>
+<p><strong>Prompts empleados:</strong> el equipo pegaba el párrafo tal como lo había escrito después de leer la fuente correspondiente, y pedía que se corrigiera la redacción, se verificara que las citas coincidieran con las fuentes correctas, y se numeraran de forma consecutiva y sin duplicados.</p>
+<p>Explícitamente:</p>
+<blockquote class="blockquote">
+<p>Lee el siguiente texto y entrega una versión que tenga las mismas ideas sin quitar nada ni agregar nada no verificado y dame lo siguiente. 1. un párrafo bien estructurado de forma formal y narrativa que tenga las fuentes de la siguiente forma [1] [2] [3] 2. Las citas textuales de las fuentes que defienden la idea de [documento de fuentes y citas textuales] 3. Las referencias [1] [2] [3] en APA</p>
+</blockquote>
+<p><strong>Qué se hizo con la salida obtenida:</strong> el equipo revisó cada párrafo reescrito comparándolo con el contenido original que había leído, para confirmar que la mejora de redacción no alterara el sentido de lo que querían decir, y corrigió a Claude cuando la numeración de referencias quedaba inconsistente entre secciones.</p>
+</section>
+<section id="b-generación-de-preguntas-posibles-para-la-entrevista-con-el-stakeholder" class="level3">
+<h3 class="anchored" data-anchor-id="b-generación-de-preguntas-posibles-para-la-entrevista-con-el-stakeholder">b) Generación de preguntas posibles para la entrevista con el stakeholder</h3>
+<p><strong>Tarea:</strong> apoyar la generación de posibles preguntas de investigación y de entrevista para plantearle al stakeholder simulado, a partir de los temas que el equipo quería cubrir (metodología de clasificación, indicadores de violencia, limitaciones del análisis, etc.).</p>
+<p><strong>Qué se hizo con la salida obtenida:</strong> el equipo seleccionó, descartó y reformuló las preguntas propuestas según lo que consideró más relevante para el proyecto, y decidió cuáles incorporar, las cuales pasaron por el procedimiento de revisión de redacción descrito en el inciso (a).</p>
+</section>
+<section id="c-búsqueda-de-otras-fuentes" class="level3">
+<h3 class="anchored" data-anchor-id="c-búsqueda-de-otras-fuentes">c) Búsqueda de otras fuentes</h3>
+<p><strong>Tarea:</strong> cuando el equipo quería complementar una idea que ya tenía en mente para las respuestas del stakeholder simulado, se le pedía a Claude que buscara otras fuentes, además de las que el equipo ya había leído, que dijeran algo similar o que respaldaran/complementaran esa idea, para poder redactar la respuesta con más de una fuente y de forma más completa.</p>
+<p><strong>Prompts empleados (resumen fiel):</strong> el equipo describía la idea que quería reforzar y pedía explícitamente que se buscara una fuente real que dijera algo parecido, entregando siempre el link de la fuente y un fragmento textual exacto que sustentara la idea, para poder verificarlo antes de usarlo.</p>
+<p><strong>Qué se hizo con la salida obtenida:</strong> el equipo abría los links entregados y comparaba el fragmento textual citado contra el documento original, para confirmar que la idea era la misma que Claude reportaba, antes de incorporarlo a la bitácora.</p>
+</section>
+<section id="d-generación-del-andamiaje-inicial-del-sitio-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="d-generación-del-andamiaje-inicial-del-sitio-quarto">d) Generación del andamiaje inicial del sitio Quarto</h3>
+<p><strong>Tarea:</strong> generar la estructura inicial del repositorio y del sitio Quarto de esta entrega — carpetas, páginas <code>.qmd</code> por entregable, configuración de navegación (<code>_quarto.yml</code>) y estilos visuales (<code>styles.css</code>) — a partir del instructivo de la entrega E0, y posteriormente trasladar a esas páginas el contenido íntegro de los documentos descritos en los incisos (a)–(c), ya redactados y validados por el equipo, sin resumir ni omitir contenido.</p>
+<p><strong>Qué se hizo con la salida obtenida:</strong> se revisó que la estructura generada correspondiera exactamente a la exigida por el instructivo, que ningún archivo incluyera información de negocio inventada, y que el sitio compilara sin errores (<code>quarto render</code>) antes y después de incorporar el contenido final.</p>
+</section>
+</section>
+<section id="revisión-y-validación-por-el-equipo" class="level2">
+<h2 class="anchored" data-anchor-id="revisión-y-validación-por-el-equipo">3. Revisión y validación por el equipo</h2>
+<p>El punto de partida de cada párrafo fue siempre la lectura directa de las fuentes por parte del equipo, no una generación libre de Claude. El equipo leía el estudio, la nota periodística o el documento institucional correspondiente, redactaba un borrador propio a partir de esa lectura, y solo entonces pedía apoyo para mejorar la redacción y organizar las citas. Ninguna afirmación específica (cifras, nombres de estudios, atribuciones) se incorporó sin que el equipo pudiera verificarla contra la fuente original. Las decisiones de alcance del proyecto, qué preguntas de investigación priorizar, y cómo definir el “éxito” del proyecto fueron tomadas por el equipo.</p>
 
 
 </section>

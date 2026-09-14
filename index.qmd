@@ -4,7 +4,8 @@ subtitle: "Facultad de Ciencias, UNAM"
 ---
 
 ::: {.todo}
-**Nota de plantilla:** completar los datos del equipo y del proyecto antes de la entrega. Eliminar este recuadro una vez llenado el contenido real.
+**Nota de plantilla:** completar los datos de contacto del equipo antes de la entrega. Eliminar este
+recuadro una vez llenado el contenido real.
 :::
 
 ## Datos del equipo
@@ -18,8 +19,17 @@ subtitle: "Facultad de Ciencias, UNAM"
 
 ## Descripción del proyecto
 
-[Resumen breve (3–5 líneas) del problema de negocio elegido, el área temática (seguridad, salud,
-educación, medio ambiente, etc.) y el stakeholder con el que se trabaja.]
+El proyecto analiza la misoginia presente en la música que se consume en México y su posible relación
+con la violencia de género. La industria musical ha sido señalada como una de las principales fuentes
+de contenido misógino en el país, pero, a diferencia de la televisión, la publicidad y las telenovelas,
+nunca ha sido sometida al mismo rigor de análisis cuantitativo. El equipo trabaja con un stakeholder
+simulado — un perfil de investigador(a) en monitoreo de medios y violencia de género inspirado en la
+línea de trabajo académica de Aimée Vega Montiel (UNAM/ONU Mujeres) — para construir dos
+entregables independientes: un diagnóstico descriptivo del contenido misógino en la música
+consumida en México (por entidad, género musical y tiempo) y un análisis de correlación entre ese
+índice y los indicadores oficiales de violencia de género del SESNSP. El detalle completo del
+levantamiento del problema está documentado en la [bitácora](entregas/E0_comprension_negocio/bitacora.qmd)
+y en el [Business Understanding Canvas](entregas/E0_comprension_negocio/canvas.qmd) de la entrega E0.
 
 ## Metodología
 
