@@ -9,8 +9,12 @@ website:
   page-navigation: true
   back-to-top-navigation: true
   reader-mode: true
+  search:
+    location: navbar
+    type: overlay
 
   navbar:
+    logo: assets/logo.svg
     background: primary
     pinned: true
     left:
@@ -41,14 +45,14 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [cosmo, theme.scss]
     toc: true
     toc-title: "En esta página"
     number-sections: false
     smooth-scroll: true
     link-external-icon: true
     link-external-newwindow: true
+    include-after-body: assets/enhance.html
 
 execute:
   freeze: auto

@@ -3,19 +3,23 @@ title: "Bitácora de la reunión con el stakeholder"
 subtitle: "Misoginia en la Música Consumida en México y su Relación con la Violencia de Género"
 ---
 
+::: {.meeting-info}
 - **Fecha:** 08 de septiembre de 2026
 - **Horario:** 17:00 – 17:45 (45 min)
 - **Modalidad:** Ejercicio de rol (stakeholder simulado*)
+:::
 
-*\* Ver justificación completa en la sección [Nota](#nota) al final de esta página.*
+::: {.callout-note appearance="simple" icon="true"}
+\* Ver justificación completa en la sección [Nota](#nota) al final de esta página.
+:::
 
 ## 1. Participantes y Stakeholders
 
 | Nombre / Integrante | Rol en el Proyecto | Cuadrante (Poder / Interés) |
 |---|---|---|
-| Investigador(a) simulado(a) A, línea de monitoreo de medios y violencia de género (perfil inspirado en el trabajo de Aimée Vega Montiel, UNAM/ONU Mujeres) | Patrocinador del proyecto / Sponsor | Alto Poder / Alto Interés |
-| Equipo (colaborador) | Líder Técnico / Proveedor de Datos | Alto Poder / Bajo Interés |
-| Equipo | Analista / Consultor / Traductor técnico | Facilitador / Bajo Poder |
+| Investigador(a) simulado(a) A, línea de monitoreo de medios y violencia de género (perfil inspirado en el trabajo de Aimée Vega Montiel, UNAM/ONU Mujeres) | Patrocinador del proyecto / Sponsor | <span class="badge-pill badge-blue">Alto Poder</span><span class="badge-pill badge-green">Alto Interés</span> |
+| Equipo (colaborador) | Líder Técnico / Proveedor de Datos | <span class="badge-pill badge-blue">Alto Poder</span><span class="badge-pill badge-green">Bajo Interés</span> |
+| Equipo | Analista / Consultor / Traductor técnico | <span class="badge-pill badge-blue">Facilitador</span><span class="badge-pill badge-green">Bajo Poder</span> |
 
 ## 2. Contexto y Objetivos
 
