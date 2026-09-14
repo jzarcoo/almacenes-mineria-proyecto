@@ -149,6 +149,12 @@ se aplica de forma medible a la música.
 > géneros musicales entre sí, que es justamente el componente descriptivo que ya separamos
 > como entregable independiente en el Canvas.
 
+**"Si ya se había señalado a la música como fuente de violencia de género, ¿por qué nunca se analizó con el mismo rigor que otros medios?"** → *[Stakeholder/A]:*
+> Dos barreras conocidas. Primero, una institucional: "la investigación en esta área es
+> exigua debido a que los profesionales" [13] vienen mayormente de conservatorios, no de
+> facultades de comunicación con tradición de investigación empírica. Segundo, una barrera > de acceso a los datos: reunir letras a escala tiene restricciones de copyright que no 
+> existen de la misma forma al analizar televisión o prensa [5].
+
 ## 5. Decisiones y Acuerdos
 
 - **Alcance definido:** Para esta primera fase construimos dos entregables independientes:
@@ -219,20 +225,33 @@ modificándolo o ampliándolo.
   violencia de género, comunicación y análisis musical, así que decidimos realizar un ejercicio de
   stakeholder simulado. El perfil que elegimos corresponde al de una investigadora especializada
   en monitoreo de medios de comunicación y violencia de género en México, inspirado en la línea
-  de trabajo académica de Aimée Vega Montiel (UNAM/ONU Mujeres). Cada respuesta del perfil
+  de trabajo académica de Aimée Vega Montiel (UNAM/ONU Mujeres) aunque habría sido ideal entrevistarla, no fue posible contactarla en esta ventana de tiempo. Cada respuesta del perfil
   simulado está fundamentada en fuentes reales y verificables, citadas a lo largo de esta bitácora.
 
 ## Referencias
 
-1. Vega Montiel, A. (2011). [La responsabilidad de los medios de comunicación en la erradicación de la violencia contra las mujeres y las niñas](https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf), UNAM/ONU Mujeres.
-2. Observatorioviolencia.org (2019). [La violencia contra las mujeres en los medios de comunicación, a debate en la ONU](https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/).
-3. Excélsior (2020). [Proponen en Senado prohibir el reggaetón en todo el país](https://www.excelsior.com.mx/nacional/proponen-en-senado-prohibir-el-reggaeton-en-todo-el-pais/1367364).
-4. evidente.mx (2019). [Morena en Sinaloa plantea prohibir reggaetón y narcocorridos en escuelas](https://evidente.mx/noticias/4047-morena-en-sinaloa-plantea-prohibir-reggaeton-y-narcocorridos-en-escuelas.html).
-5. Gaceta Politécnica, IPN — entrevista a Tania Alcántara (MiSonGyny): <https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562>
-6. Wikipedia — [María Salguero Bañuelos](https://es.wikipedia.org/wiki/Mar%C3%ADa_Salguero_Ba%C3%B1uelos).
-7. Arévalo, Chellew, Figueroa-Cofré, Arancibia-Villablanca y Schmied (2018). <https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797>
-8. Fersini, Rosso y Anzovino — AMI IberEval 2018 (<https://ceur-ws.org/Vol-2150/overview-AMI.pdf>); F1 de EXIST 2021 vía Multiaztertest@Exist-IberLEF2022 (<https://ceur-ws.org/Vol-3202/exist-paper8.pdf>).
-9. *Necropolítica Cultural: Un Análisis de los Corridos Tumbados en México*. <https://revistaiberociencias.org/index.php/multidisciplinar/article/download/822/2500/4849>
-10. Ley General de Acceso de las Mujeres a una Vida Libre de Violencia (México, 2007, con reformas posteriores). Texto vigente en la Cámara de Diputados: <https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAMVLV.pdf>
-11. Soler Campo, S., Faure-Carvallo, A., y Vernia Carrasco, A. M. (2022). Reguetón y representaciones de la mujer: un estudio en la Educación Secundaria. *Revista Internacional de Educación Musical*, (10), 25–32. <https://doi.org/10.1177/23074841221131431>
-12. Alcántara, T., Soto, M., Macías, C., García-Vázquez, O., Espinosa-Juárez, A., Calvo, H., Valdez-Rodríguez, J. E., y Felipe-Riverón, E. (2025). *Overview of MiSonGyny at IberLEF 2025: Misogyny Speech Detection in Spanish Language Song Lyrics*. Procesamiento del Lenguaje Natural, 75. Citado en: Díez-Fenoy, C., López-González, A., y Valle-Díaz, J. D. (2025). *DACKERS at MiSonGyny 2025*. <https://ceur-ws.org/Vol-4098/MiSonGyny2025_paper1.pdf>
+1. Vega Montiel, A. (2011). *La responsabilidad de los medios de comunicación en la erradicación de la violencia contra las mujeres y las niñas*. UNAM/ONU Mujeres. https://new.waccglobal.org/wp-content/uploads/wacc-global/resources/one-year-projects/2187-Aimee_Vega_Montiel_Los_medios_de_comunicacion_frente_a_la_violencia_contra_las_mujeres_y_las_ninas.pdf
+
+2. Observatorio de la Violencia. (2019). *La violencia contra las mujeres en los medios de comunicación, a debate en la ONU*. https://observatorioviolencia.org/la-violencia-contra-las-mujeres-en-los-medios-de-comunicacion-a-debate-en-la-onu/
+
+3. Excélsior. (2020, 2 de marzo). *Proponen en Senado prohibir el reggaetón en todo el país*. https://www.excelsior.com.mx/nacional/proponen-en-senado-prohibir-el-reggaeton-en-todo-el-pais/1367364
+
+4. evidente.mx. (2019). *Morena en Sinaloa plantea prohibir reggaetón y narcocorridos en escuelas*. https://evidente.mx/noticias/4047-morena-en-sinaloa-plantea-prohibir-reggaeton-y-narcocorridos-en-escuelas.html
+
+5. Gaceta Politécnica, IPN. (s.f.). *Del romanticismo a la misoginia, ¿qué dicen las canciones en español?* [Entrevista a Tania Alcántara]. https://www.ipn.mx/gacetapolitecnica/ver-detalle.html?g=562
+
+6. Wikipedia. (s.f.). *María Salguero Bañuelos*. https://es.wikipedia.org/wiki/Mar%C3%ADa_Salguero_Ba%C3%B1uelos
+
+7. Arévalo, C., Chellew, P., Figueroa-Cofré, C., Arancibia-Villablanca, P., y Schmied, C. (2018). Ni pobre diabla, ni candy: Violencia de género del reggaetón. *Revista de Sociología*. https://revistadesociologia.uchile.cl/index.php/RDS/article/view/51797
+
+8. Fersini, E., Rosso, P., y Anzovino, M. (2018). Overview of the task on automatic misogyny identification at IberEval 2018. En *Proceedings of the Third Workshop on Evaluation of Human Language Technologies for Iberian Languages (IberEval 2018)*. https://ceur-ws.org/Vol-2150/overview-AMI.pdf
+
+9. Necropolítica cultural: Un análisis de los corridos tumbados en México. (2024). https://revistaiberociencias.org/index.php/multidisciplinar/article/download/822/2500/4849
+
+10. Ley General de Acceso de las Mujeres a una Vida Libre de Violencia. (2007, con reformas posteriores). Cámara de Diputados. https://www.diputados.gob.mx/LeyesBiblio/pdf/LGAMVLV.pdf
+
+11. Soler Campo, S., Faure-Carvallo, A., y Vernia Carrasco, A. M. (2022). Reguetón y representaciones de la mujer: un estudio en la Educación Secundaria. *Revista Internacional de Educación Musical*, (10), 25–32. https://doi.org/10.1177/23074841221131431
+
+12. Alcántara, T., Soto, M., Macías, C., García-Vázquez, O., Espinosa-Juárez, A., Calvo, H., Valdez-Rodríguez, J. E., y Felipe-Riverón, E. (2025). Overview of MiSonGyny at IberLEF 2025: Misogyny speech detection in Spanish language song lyrics. *Procesamiento del Lenguaje Natural*, 75.
+
+13. Hormigos-Ruiz, J., Gómez-Escarda, M., y Perelló-Oliver, S. (2018). Música y violencia de género en España: Estudio comparado por estilos musicales. *Convergencia*, 25(76). https://www.researchgate.net/publication/321924845_Musica_y_violencia_de_genero_en_Espana_Estudio_comparado_por_estilos_musicales
