@@ -34,8 +34,7 @@ Pages.
 ```
 
 Este repositorio y su sitio Quarto se reutilizan durante todo el semestre: cada entrega agrega una
-nueva carpeta en `entregas/` y sus páginas correspondientes al sitio, en lugar de crear un
-repositorio nuevo.
+nueva carpeta en `entregas/` y sus páginas correspondientes al sitio.
 
 ## Cómo previsualizar el sitio localmente
 
@@ -57,7 +56,7 @@ Esto genera el sitio estático en `docs/`, que es la carpeta que sirve GitHub Pa
 
 1. Hacer `quarto render` y confirmar que `docs/` se generó correctamente.
 2. Subir el repositorio a GitHub (`main` como rama por defecto).
-3. En GitHub: **Settings → Pages → Branch: `main` / `docs`**.
+3. En GitHub: **Settings -> Pages -> Branch: `main` / `docs`**.
 4. Pegar la URL pública resultante en este README, en la sección "Sitio publicado" de arriba.
 
 ## Licencia
