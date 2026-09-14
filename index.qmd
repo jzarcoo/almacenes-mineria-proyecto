@@ -13,7 +13,7 @@ subtitle: "Facultad de Ciencias, UNAM"
 - **Profesora:** Jessica Santizo Galicia
 - **Ayudante de Teoría:** Diego Antonio Villalba González
 - **Ayudante de Laboratorio:** Emma Alicia Jiménez Sánchez
-- **Semestre:** [2027-1]
+- **Semestre:** 2027-1
 
 ## Descripción del proyecto
 
